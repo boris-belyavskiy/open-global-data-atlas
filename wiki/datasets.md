@@ -8,6 +8,7 @@ This is a curated seed, including some broad statistical database families and s
 - [Global Findex country indicators](records/findex-aggregates.md) — Dataset; **OPEN**. Country, region and demographic summaries of financial access and behaviour, published separately from respondent files.
 - [ILOSTAT statistical database](records/ilostat.md) — Dataset; **OPEN**. Employment, unemployment, wages and other labour statistics, including modeled estimates.
 - [Global SDG Indicators Database](records/sdg-global.md) — Dataset; **OPEN**. Official dissemination of indicator series supplied through the SDG custodian process. SDGs are a separate policy crosswalk.
+- [UN Member States country reference dataset](records/un-member-states.md) — Dataset; **OPEN**. Country-level reference information on current UN members, including variant names, membership documents, coverage dates and M49/ISO codes. These are administrative country attributes, not survey observations or an alliance panel.
 - [UNHCR Refugee Data Portal: population statistics](records/unhcr-population.md) — Dataset; **OPEN**. Official aggregate population statistics on people affected by forced displacement and statelessness.
 - [UNODC intentional homicide statistics](records/unodc-homicide.md) — Dataset; **OPEN**. Country-level homicide statistics and disaggregations published by UNODC.
 - [World Development Indicators](records/wdi.md) — Dataset; **OPEN**. Cross-country development indicators compiled from national and international producers.

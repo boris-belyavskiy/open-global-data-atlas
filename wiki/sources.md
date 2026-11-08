@@ -59,6 +59,7 @@ Follow source → catalog → programme → dataset. These are linked entities, 
 - [United Nations Treaty Collection](records/un-treaties.md) — Catalog; **OPEN**. Treaty texts and depositary information on international commitments. Useful for affiliation research, but not a ready-made alliance panel.
 - [UNdata statistical databases](records/undata-legacy.md) — Catalog; **OPEN**. UN data retrieval portal with statistical datamarts and downloadable tables. Republishes statistics from multiple producers.
 - [Global SDG Indicators Database](records/sdg-global.md) — Dataset; **OPEN**. Official dissemination of indicator series supplied through the SDG custodian process. SDGs are a separate policy crosswalk.
+- [UN Member States country reference dataset](records/un-member-states.md) — Dataset; **OPEN**. Country-level reference information on current UN members, including variant names, membership documents, coverage dates and M49/ISO codes. These are administrative country attributes, not survey observations or an alliance panel.
 
 ## United Nations High Commissioner for Refugees
 
@@ -103,4 +104,3 @@ Follow source → catalog → programme → dataset. These are linked entities, 
 
 - [World Values Survey Wave 7 (2017-2022)](records/wvs-wave7.md) — Dataset; **REGISTER**. Integrated respondent data and documentation for the seventh WVS wave.
 - [World Values Survey](records/wvs.md) — Program; **REGISTER**. Repeated cross-national surveys of trust, values, beliefs, well-being and political attitudes.
-

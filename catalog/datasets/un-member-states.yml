@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: un-member-states
+kind: dataset
+name: UN Member States country reference dataset
+description: Country-level reference information on current UN members, including variant names, membership documents, coverage dates and M49/ISO codes. These are administrative country attributes, not survey observations or an alliance panel.
+organization_id: un
+parent_id: null
+catalog_ids: []
+original_producer: United Nations Dag Hammarskjold Library, using UN Digital Library corporate authority records.
+collector: UN Library compilation from official documents and historical resources.
+publisher: United Nations Digital Library
+topics:
+  - A5
+keywords:
+  - UN membership
+  - affiliations
+  - international organizations
+  - country codes
+  - admission
+data_levels:
+  - aggregate
+observation_units:
+  - country
+geography:
+  scope: multi_country
+  regions:
+    - Global / multi-region
+    - Africa
+    - Americas
+    - Asia
+    - Europe
+    - Oceania
+  country_codes:
+    - ARG
+    - AUS
+    - BGD
+    - BRA
+    - CAN
+    - CHN
+    - DEU
+    - ETH
+    - FRA
+    - GBR
+    - GHA
+    - IND
+    - JPN
+    - KEN
+    - MEX
+    - NGA
+    - USA
+    - ZAF
+    - UGA
+    - ZMB
+  coverage_completeness: partial
+  notes: The official guide describes current UN members. Tags here are confirmed examples only; use the original dataset for the complete membership inventory and historical coverage notes.
+time_coverage: The library guide describes a snapshot of current members as at August 2026, with coverage dates in individual records.
+release: Snapshot described by the official guide as August 2026; verify the downloadable version at the original record.
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+    - web_interface
+    - web_download
+  formats: []
+  notes: The official UN Library guide links the publicly published dataset. A crawler could not fetch the Digital Library record during verification; file formats and a successful download are not asserted. The guide itself provides country membership reference information without registration.
+  license_name: United Nations copyright; non-commercial use with attribution, as stated by the UN Library guide.
+  license_url: https://research.un.org/en/unmembers/currentmembers
+links:
+  - rel: landing
+    url: https://digitallibrary.un.org/record/4082085?ln=en
+  - rel: documentation
+    url: https://research.un.org/en/unmembers/currentmembers
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Official UN Library guide reviewed, including its dataset description and exact outbound link. The Digital Library record returned a crawler access error; no data download was tested.
+  evidence:
+    - url: https://research.un.org/en/unmembers/currentmembers
+      claim: The guide identifies the Member States Dataset, its current-member snapshot, corporate-authority provenance, fields and non-commercial attribution conditions.

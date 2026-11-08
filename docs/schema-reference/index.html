@@ -1388,6 +1388,7 @@
 </tbody>
 </table>
 <h3 id="geography">Geography</h3>
+<p>For country reference products such as UN membership, <code>aggregate</code> is also used for country-level administrative attributes. The description must make this explicit; it does not imply a calculated statistical estimate.</p>
 <p><code>scope</code> is <code>single_country</code>, <code>multi_country</code> or <code>global</code>. <code>regions</code> uses the discovery regions in <code>taxonomy/geography.yml</code>, not a claimed official UN M49 hierarchy. <code>country_codes</code> uses the curated ISO 3166-1 alpha-3 examples in that file. Territories and non-ISO provider geographies require an explicit future schema extension; never silently rewrite a provider code as ISO. <code>coverage_completeness</code> is <code>complete</code>, <code>partial</code> or <code>not_enumerated</code>. <code>notes</code> explains what was checked. Empty codes mean unknown/not enumerated, never “no coverage.”</p>
 <h3 id="access">Access</h3>
 <p><code>status</code> is <code>OPEN</code>, <code>REGISTER</code>, <code>APPLY</code>, <code>REQUEST</code>, <code>METADATA_ONLY</code> or <code>PAID</code>. <code>free_data_available</code> must be true for the first four and false for the last two. For APPLY/REQUEST, true describes a documented no-fee route, not approval for a particular user. The UI starts with available free routes only.</p>

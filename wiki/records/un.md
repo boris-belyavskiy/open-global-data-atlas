@@ -14,6 +14,7 @@ UN Secretariat; statistical and treaty services have different responsible offic
 - [United Nations Treaty Collection](un-treaties.md) — Catalog; **OPEN**. Treaty texts and depositary information on international commitments. Useful for affiliation research, but not a ready-made alliance panel.
 - [UNdata statistical databases](undata-legacy.md) — Catalog; **OPEN**. UN data retrieval portal with statistical datamarts and downloadable tables. Republishes statistics from multiple producers.
 - [Global SDG Indicators Database](sdg-global.md) — Dataset; **OPEN**. Official dissemination of indicator series supplied through the SDG custodian process. SDGs are a separate policy crosswalk.
+- [UN Member States country reference dataset](un-member-states.md) — Dataset; **OPEN**. Country-level reference information on current UN members, including variant names, membership documents, coverage dates and M49/ISO codes. These are administrative country attributes, not survey observations or an alliance panel.
 
 ## Verification and evidence
 

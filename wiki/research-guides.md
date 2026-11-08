@@ -18,4 +18,6 @@ Start with [MTUS](records/mtus.md) and its user guide. Identify the diary unit, 
 
 ## Follow international commitments
 
+For a concrete organization-membership source, start with the [UN Member States country reference dataset](records/un-member-states.md). It includes country names, codes and membership documentation. A current-member snapshot is not a complete history of international affiliations.
+
 Use the [UN Treaty Collection](records/un-treaties.md) for treaty texts, depositary notices and status evidence. A signature, ratification and entry into force are different events. Treaty participation does not imply an alliance, and current status does not by itself reconstruct a historical panel. Record the event definition and effective date before turning documents into country-level variables.

@@ -45,6 +45,8 @@ Organizations have no implicit dataset access status. Source cards list their li
 
 ### Geography
 
+For country reference products such as UN membership, `aggregate` is also used for country-level administrative attributes. The description must make this explicit; it does not imply a calculated statistical estimate.
+
 `scope` is `single_country`, `multi_country` or `global`. `regions` uses the discovery regions in `taxonomy/geography.yml`, not a claimed official UN M49 hierarchy. `country_codes` uses the curated ISO 3166-1 alpha-3 examples in that file. Territories and non-ISO provider geographies require an explicit future schema extension; never silently rewrite a provider code as ISO. `coverage_completeness` is `complete`, `partial` or `not_enumerated`. `notes` explains what was checked. Empty codes mean unknown/not enumerated, never “no coverage.”
 
 ### Access

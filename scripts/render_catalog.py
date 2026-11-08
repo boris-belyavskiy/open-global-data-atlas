@@ -41,7 +41,7 @@ for r in records:
     write(f'wiki/records/{r["id"]}.md',out)
 
 orgs=[r for r in records if r['kind']=='organization']
-write('wiki/sources.md','# Browse by organization and source\n\nFollow source → catalog → programme → dataset. These are linked entities, not four different copies of the same data.\n\n'+''.join(f'## {r["name"]}\n\n[Open source card](records/{r["id"]}.md) · {r["un_relation"]}\n\n'+cards([x for x in records if x.get('organization_id')==r['id']],prefix='records/')+'\n' for r in orgs))
+write('wiki/sources.md',('# Browse by organization and source\n\nFollow source → catalog → programme → dataset. These are linked entities, not four different copies of the same data.\n\n'+''.join(f'## {r["name"]}\n\n[Open source card](records/{r["id"]}.md) · {r["un_relation"]}\n\n'+cards([x for x in records if x.get('organization_id')==r['id']],prefix='records/')+'\n' for r in orgs)).rstrip()+'\n')
 write('wiki/catalogs.md','# Catalogs and meta-catalogs\n\nDiscovery portals can include restricted or unavailable studies. A METADATA_ONLY entry is never a confirmed free dataset.\n\n'+cards([r for r in records if r['kind']=='catalog'],prefix='records/'))
 write('wiki/programs.md','# Survey programmes\n\nDistinguish individual respondent records from household files, diaries and published country summaries. Programme-wide descriptions do not guarantee every module in every country.\n\n'+cards([r for r in records if r['kind']=='program'],prefix='records/'))
 write('wiki/datasets.md','# Datasets and statistical databases\n\nThis is a curated seed, including some broad statistical database families and selected fixed survey releases. It is not an exhaustive study or variable inventory.\n\n'+cards([r for r in records if r['kind']=='dataset'],prefix='records/'))
