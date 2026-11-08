@@ -1,0 +1,19 @@
+schema_version: '1.0'
+id: who
+kind: organization
+name: World Health Organization
+description: UN specialized agency for health.
+website: https://www.who.int/
+un_relation: UN_SYSTEM
+relation_note: UN specialized agency for health.
+topics: []
+keywords:
+- World Health Organization
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://unsceb.org/faq/
+    claim: WHO is a UN system CEB member.

@@ -1,0 +1,2764 @@
+{
+  "records": [
+    {
+      "schema_version": "1.0",
+      "id": "fao-faostat",
+      "kind": "catalog",
+      "name": "FAOSTAT",
+      "description": "Food, agriculture, land, inputs and agrifood emissions data.",
+      "organization_id": "fao",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "Food and Agriculture Organization",
+      "topics": [
+        "A1",
+        "A3"
+      ],
+      "keywords": [
+        "agriculture",
+        "food",
+        "emissions",
+        "land",
+        "resources"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Many series start in 1961; coverage depends on domain.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "web_download",
+          "bulk_download",
+          "web_interface"
+        ],
+        "formats": [
+          "CSV"
+        ],
+        "notes": "Free public data. Domain-specific coverage, source notes and FAO terms still apply.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://www.fao.org/faostat/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://www.fao.org/faostat/"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://www.fao.org/faostat/",
+            "claim": "FAO explicitly describes free access to country and regional food and agriculture data."
+          }
+        ]
+      },
+      "organization_name": "Food and Agriculture Organization",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Economy and resources",
+        "Environment and climate"
+      ],
+      "country_labels": [],
+      "card_url": "records/fao-faostat/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ihsn-catalog",
+      "kind": "catalog",
+      "name": "IHSN Survey Catalog",
+      "description": "Meta-catalog of household surveys and censuses, directing users to study documentation and custodians.",
+      "organization_id": "ihsn",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "International Household Survey Network",
+      "topics": [
+        "A2",
+        "A6",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B8"
+      ],
+      "keywords": [
+        "meta-catalog",
+        "survey",
+        "census",
+        "NADA",
+        "DDI"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person",
+        "household"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "METADATA_ONLY",
+        "free_data_available": false,
+        "methods": [
+          "web_interface"
+        ],
+        "formats": [
+          "DDI",
+          "HTML"
+        ],
+        "notes": "Free metadata does not mean every underlying survey is downloadable. Follow each study access policy.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://catalog.ihsn.org/catalog"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://catalog.ihsn.org/catalog"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://catalog.ihsn.org/catalog",
+            "claim": "Searchable catalogue of studies."
+          },
+          {
+            "url": "https://www.ihsn.org/",
+            "claim": "Central catalog provides survey and census metadata."
+          }
+        ]
+      },
+      "organization_name": "International Household Survey Network",
+      "un_relation": "UN_PARTNER",
+      "topic_labels": [
+        "Demography and population health",
+        "Social development and institutions",
+        "Time use",
+        "Financial and economic behaviour",
+        "Health and subjective well-being",
+        "Family and reproductive relations",
+        "Risk, safety and migration"
+      ],
+      "country_labels": [],
+      "card_url": "records/ihsn-catalog/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "un-data-commons",
+      "kind": "catalog",
+      "name": "UN System Data Commons",
+      "description": "Cross-agency discovery portal for UN-system statistics. Start here to locate sources, then check the original publisher.",
+      "organization_id": "un",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "United Nations Secretariat",
+      "topics": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A6"
+      ],
+      "keywords": [
+        "UN",
+        "meta-catalog",
+        "discovery"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "METADATA_ONLY",
+        "free_data_available": false,
+        "methods": [
+          "web_interface"
+        ],
+        "formats": [
+          "HTML"
+        ],
+        "notes": "Portal identity is verified. This seed does not assert a uniform access route or test its JavaScript application.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://data.un.org/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://data.un.org/"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://data.un.org/",
+            "claim": "Current portal title identifies UN System Data Commons; application requires JavaScript."
+          }
+        ]
+      },
+      "organization_name": "United Nations Secretariat",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Economy and resources",
+        "Demography and population health",
+        "Environment and climate",
+        "Defence and security",
+        "Social development and institutions"
+      ],
+      "country_labels": [],
+      "card_url": "records/un-data-commons/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "un-treaties",
+      "kind": "catalog",
+      "name": "United Nations Treaty Collection",
+      "description": "Treaty texts and depositary information on international commitments. Useful for affiliation research, but not a ready-made alliance panel.",
+      "organization_id": "un",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "States and treaty parties; UN Treaty Section compiles depositary and registration information.",
+      "collector": "UN Office of Legal Affairs, Treaty Section.",
+      "publisher": "UN Office of Legal Affairs",
+      "topics": [
+        "A5"
+      ],
+      "keywords": [
+        "treaties",
+        "ratification",
+        "affiliations",
+        "international law",
+        "alliances"
+      ],
+      "data_levels": [
+        "text_event"
+      ],
+      "observation_units": [
+        "treaty",
+        "country"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "web_interface",
+          "web_download"
+        ],
+        "formats": [
+          "HTML",
+          "PDF"
+        ],
+        "notes": "Public treaty documents and status information. A general bulk API and a complete historical alliance dataset are not asserted.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://treaties.un.org/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://treaties.un.org/"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://treaties.un.org/",
+            "claim": "Treaty registration, depositary notices and public treaty documents."
+          }
+        ]
+      },
+      "organization_name": "United Nations Secretariat",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "International relations and affiliations"
+      ],
+      "country_labels": [],
+      "card_url": "records/un-treaties/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "undata-legacy",
+      "kind": "catalog",
+      "name": "UNdata statistical databases",
+      "description": "UN data retrieval portal with statistical datamarts and downloadable tables. Republishes statistics from multiple producers.",
+      "organization_id": "un",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "United Nations Secretariat",
+      "topics": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A6"
+      ],
+      "keywords": [
+        "UNdata",
+        "meta-catalog",
+        "GDP",
+        "population",
+        "trade"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "web_download",
+          "web_interface"
+        ],
+        "formats": [
+          "CSV",
+          "PDF"
+        ],
+        "notes": "Free public table downloads. Dataset terms and original producers differ; do not count republished series as new observations.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://data.un.org/Default.aspx"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://data.un.org/Default.aspx"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://data.un.org/Default.aspx",
+            "claim": "Statistical databases, table links and CSV downloads are listed."
+          }
+        ]
+      },
+      "organization_name": "United Nations Secretariat",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Economy and resources",
+        "Demography and population health",
+        "Environment and climate",
+        "Defence and security",
+        "Social development and institutions"
+      ],
+      "country_labels": [],
+      "card_url": "records/undata-legacy/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "unodc-portal",
+      "kind": "catalog",
+      "name": "UNODC Data Portal",
+      "description": "Crime, drugs, violence, justice and related SDG statistics.",
+      "organization_id": "unodc",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "United Nations Office on Drugs and Crime",
+      "topics": [
+        "A4",
+        "A6"
+      ],
+      "keywords": [
+        "crime",
+        "homicide",
+        "violence",
+        "justice"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "web_download"
+        ],
+        "formats": [
+          "XLSX"
+        ],
+        "notes": "Public statistical tables are available; this card does not promise access to UNODC microdata.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://data.unodc.org/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://data.unodc.org/"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://data.unodc.org/",
+            "claim": "Crime and justice topic sections."
+          },
+          {
+            "url": "https://data.unodc.org/datareport/hom-victim",
+            "claim": "Homicide page includes metadata and data downloads."
+          }
+        ]
+      },
+      "organization_name": "United Nations Office on Drugs and Crime",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Defence and security",
+        "Social development and institutions"
+      ],
+      "country_labels": [],
+      "card_url": "records/unodc-portal/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "wb-data-catalog",
+      "kind": "catalog",
+      "name": "World Bank Data Catalog",
+      "description": "Discovery across development datasets and contributing catalogs.",
+      "organization_id": "world-bank",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "World Bank",
+      "topics": [
+        "A1",
+        "A2",
+        "A3",
+        "A6",
+        "B2"
+      ],
+      "keywords": [
+        "meta-catalog",
+        "development",
+        "World Bank"
+      ],
+      "data_levels": [
+        "aggregate",
+        "microdata",
+        "geospatial"
+      ],
+      "observation_units": [
+        "country",
+        "region",
+        "person",
+        "household"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "METADATA_ONLY",
+        "free_data_available": false,
+        "methods": [
+          "web_interface"
+        ],
+        "formats": [
+          "HTML"
+        ],
+        "notes": "Discovery record only. Access and licenses are specified per dataset.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://datacatalog.worldbank.org/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://datacatalog.worldbank.org/"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://datacatalog.worldbank.org/",
+            "claim": "Dataset search and contributing catalogs."
+          }
+        ]
+      },
+      "organization_name": "World Bank",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Economy and resources",
+        "Demography and population health",
+        "Environment and climate",
+        "Social development and institutions",
+        "Financial and economic behaviour"
+      ],
+      "country_labels": [],
+      "card_url": "records/wb-data-catalog/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "wb-microdata",
+      "kind": "catalog",
+      "name": "World Bank Microdata Library",
+      "description": "Study-level survey documentation and access routes, including LSMS and Global Findex.",
+      "organization_id": "world-bank",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "World Bank",
+      "topics": [
+        "B2",
+        "B3",
+        "B4",
+        "B8"
+      ],
+      "keywords": [
+        "NADA",
+        "DDI",
+        "LSMS",
+        "Findex"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person",
+        "household"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "METADATA_ONLY",
+        "free_data_available": false,
+        "methods": [
+          "web_interface"
+        ],
+        "formats": [
+          "DDI",
+          "JSON"
+        ],
+        "notes": "A catalog record is not proof of current download access. Individual study routes vary.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://microdata.worldbank.org/catalog/4607"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://microdata.worldbank.org/"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://microdata.worldbank.org/catalog/4607",
+            "claim": "Example public study metadata and documentation."
+          },
+          {
+            "url": "https://microdata.worldbank.org/index.php/catalog/3823/get-microdata",
+            "claim": "A documented study can currently report Data Access Not Available."
+          }
+        ]
+      },
+      "organization_name": "World Bank",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Financial and economic behaviour",
+        "Health and subjective well-being",
+        "Family and reproductive relations",
+        "Risk, safety and migration"
+      ],
+      "country_labels": [],
+      "card_url": "records/wb-microdata/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "afro-round9",
+      "kind": "dataset",
+      "name": "Afrobarometer merged Round 9 (39 countries)",
+      "description": "Merged public-use respondent file and codebook for Round 9. Deliberately a fixed historical seed, not a claim to be the latest round.",
+      "organization_id": "afrobarometer-org",
+      "parent_id": "afrobarometer",
+      "catalog_ids": [],
+      "original_producer": "Afrobarometer and national partners.",
+      "collector": "Afrobarometer national partners.",
+      "publisher": "Afrobarometer",
+      "topics": [
+        "B2",
+        "B3",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ],
+      "keywords": [
+        "Africa",
+        "governance",
+        "trust",
+        "crime",
+        "safety"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Africa"
+        ],
+        "country_codes": [
+          "ETH",
+          "GHA",
+          "KEN",
+          "NGA",
+          "ZAF",
+          "UGA",
+          "ZMB"
+        ],
+        "coverage_completeness": "partial",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Round 9; use country-specific fieldwork dates in the codebook.",
+      "release": "Merged Round 9, portal label 2023.",
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "web_download"
+        ],
+        "formats": [
+          "SPSS"
+        ],
+        "notes": "Free data without an account; terms and attribution can still apply.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://www.afrobarometer.org/data/merged-data/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://www.afrobarometer.org/data/merged-data/"
+        }
+      ],
+      "survey": {
+        "method": "Cross-sectional adult survey interviews.",
+        "weights": "Use the merged-round codebook weighting guidance.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Compare overlapping questions and account for national fieldwork timing."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://www.afrobarometer.org/data/merged-data/",
+            "claim": "Round 9 data and codebook links; newer rounds are listed separately."
+          },
+          {
+            "url": "https://www.afrobarometer.org/survey-resource/merged-round-9-codebook-39-countries-2023/",
+            "claim": "Round 9 codebook resource."
+          }
+        ]
+      },
+      "organization_name": "Afrobarometer",
+      "un_relation": "INDEPENDENT",
+      "topic_labels": [
+        "Financial and economic behaviour",
+        "Health and subjective well-being",
+        "Social relations",
+        "Political participation and the state",
+        "Values, norms and beliefs",
+        "Risk, safety and migration"
+      ],
+      "country_labels": [
+        "Ethiopia",
+        "Ghana",
+        "Kenya",
+        "Nigeria",
+        "South Africa",
+        "Uganda",
+        "Zambia"
+      ],
+      "card_url": "records/afro-round9/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ethiopia-ess-2018",
+      "kind": "dataset",
+      "name": "Ethiopia Socioeconomic Survey 2018-2019",
+      "description": "Country study with detailed household and agriculture documentation. Retained as an explicit access gap.",
+      "organization_id": "world-bank",
+      "parent_id": "lsms",
+      "catalog_ids": [
+        "wb-microdata",
+        "ihsn-catalog"
+      ],
+      "original_producer": "Central Statistics Agency of Ethiopia.",
+      "collector": "Central Statistics Agency of Ethiopia.",
+      "publisher": "World Bank",
+      "topics": [
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "keywords": [
+        "Ethiopia",
+        "households",
+        "agriculture",
+        "consumption"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "household",
+        "person"
+      ],
+      "geography": {
+        "scope": "single_country",
+        "regions": [
+          "Africa"
+        ],
+        "country_codes": [
+          "ETH"
+        ],
+        "coverage_completeness": "partial",
+        "notes": "Ethiopia is the study country. Coverage within Ethiopia must be read in the sampling documentation."
+      },
+      "time_coverage": "2018-2019",
+      "release": "ETH_2018_ESS_v04_M (identifier shown on access page).",
+      "access": {
+        "status": "METADATA_ONLY",
+        "free_data_available": false,
+        "methods": [
+          "web_interface"
+        ],
+        "formats": [
+          "DDI",
+          "JSON"
+        ],
+        "notes": "Not counted among available free data. Metadata and documentation are visible, but current public download access was not established.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://microdata.worldbank.org/index.php/catalog/3823"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://microdata.worldbank.org/index.php/catalog/3823"
+        }
+      ],
+      "survey": {
+        "method": "Multi-topic household and agriculture survey.",
+        "weights": "Consult study documentation.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Preserve panel design and seasonality information."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://microdata.worldbank.org/index.php/catalog/3823",
+            "claim": "Study identity, fieldwork period and Central Statistics Agency producer."
+          },
+          {
+            "url": "https://microdata.worldbank.org/index.php/catalog/3823/get-microdata",
+            "claim": "Current public access page says Data Access Not Available."
+          }
+        ]
+      },
+      "organization_name": "World Bank",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Financial and economic behaviour",
+        "Health and subjective well-being",
+        "Family and reproductive relations"
+      ],
+      "country_labels": [
+        "Ethiopia"
+      ],
+      "card_url": "records/ethiopia-ess-2018/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "findex-2021",
+      "kind": "dataset",
+      "name": "Global Findex 2021 respondent microdata",
+      "description": "Individual records about accounts, saving, borrowing, payments and financial resilience. These are published Findex records, not access to the full Gallup World Poll.",
+      "organization_id": "world-bank",
+      "parent_id": null,
+      "catalog_ids": [
+        "wb-microdata"
+      ],
+      "original_producer": "World Bank Development Research Group, Finance and Private Sector Development Unit.",
+      "collector": "Gallup, Inc., in association with its World Poll.",
+      "publisher": "World Bank Microdata Library",
+      "topics": [
+        "B2",
+        "B8"
+      ],
+      "keywords": [
+        "saving",
+        "borrowing",
+        "accounts",
+        "financial inclusion",
+        "payments",
+        "resilience"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region",
+          "Africa",
+          "Americas",
+          "Asia",
+          "Europe",
+          "Oceania"
+        ],
+        "country_codes": [
+          "ARG",
+          "AUS",
+          "BGD",
+          "BRA",
+          "CAN",
+          "CHN",
+          "DEU",
+          "ETH",
+          "FRA",
+          "GBR",
+          "GHA",
+          "IND",
+          "JPN",
+          "KEN",
+          "MEX",
+          "NGA",
+          "USA",
+          "ZAF",
+          "UGA",
+          "ZMB"
+        ],
+        "coverage_completeness": "partial",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "2021 edition; catalogue collection dates 2021-2023 include later country fieldwork.",
+      "release": "WLD_2021_FINDEX_v03_M",
+      "access": {
+        "status": "REGISTER",
+        "free_data_available": true,
+        "methods": [
+          "web_download"
+        ],
+        "formats": [
+          "Stata"
+        ],
+        "notes": "Free data after account creation or a user registration form, without substantive project review.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://blogs.worldbank.org/en/opendata/launch-2021-global-findex-microdata"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://microdata.worldbank.org/catalog/4607"
+        },
+        {
+          "rel": "questionnaire",
+          "url": "https://microdata.worldbank.org/catalog/4607/related-materials"
+        },
+        {
+          "rel": "codebook",
+          "url": "https://microdata.worldbank.org/catalog/4607/data-dictionary"
+        }
+      ],
+      "survey": {
+        "method": "Nationally representative adult interviews, telephone or face-to-face by country.",
+        "weights": "Use respondent weights and country sampling documentation.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "COVID-era mode changes and later fieldwork affect comparison with earlier rounds."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://blogs.worldbank.org/en/opendata/launch-2021-global-findex-microdata",
+            "claim": "Download requires free World Bank Microdata Library registration."
+          },
+          {
+            "url": "https://microdata.worldbank.org/catalog/4607/study-description",
+            "claim": "World Bank producer, Gallup collection, study scope and national coverage."
+          }
+        ]
+      },
+      "organization_name": "World Bank",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Financial and economic behaviour",
+        "Risk, safety and migration"
+      ],
+      "country_labels": [
+        "Argentina",
+        "Australia",
+        "Bangladesh",
+        "Brazil",
+        "Canada",
+        "China",
+        "Germany",
+        "Ethiopia",
+        "France",
+        "United Kingdom",
+        "Ghana",
+        "India",
+        "Japan",
+        "Kenya",
+        "Mexico",
+        "Nigeria",
+        "United States",
+        "South Africa",
+        "Uganda",
+        "Zambia"
+      ],
+      "card_url": "records/findex-2021/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "findex-aggregates",
+      "kind": "dataset",
+      "name": "Global Findex country indicators",
+      "description": "Country, region and demographic summaries of financial access and behaviour, published separately from respondent files.",
+      "organization_id": "world-bank",
+      "parent_id": null,
+      "catalog_ids": [
+        "wb-data-catalog"
+      ],
+      "original_producer": "World Bank; survey collection by Gallup and national fieldwork arrangements.",
+      "collector": "Gallup survey fieldwork.",
+      "publisher": "World Bank",
+      "topics": [
+        "A1",
+        "A6"
+      ],
+      "keywords": [
+        "accounts",
+        "financial inclusion",
+        "digital access",
+        "8.10.2"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Published rounds include 2011, 2014, 2017, 2021 and 2024; check each indicator.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "web_download"
+        ],
+        "formats": [
+          "CSV",
+          "XLSX",
+          "Stata"
+        ],
+        "notes": "Free data without an account; terms and attribution can still apply.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://www.worldbank.org/en/publication/globalfindex/download-data"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://www.worldbank.org/en/publication/globalfindex/download-data"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://www.worldbank.org/en/publication/globalfindex/download-data",
+            "claim": "Public Excel, CSV and Stata aggregate downloads; individual data linked separately."
+          }
+        ]
+      },
+      "organization_name": "World Bank",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Economy and resources",
+        "Social development and institutions"
+      ],
+      "country_labels": [],
+      "card_url": "records/findex-aggregates/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ilostat",
+      "kind": "dataset",
+      "name": "ILOSTAT statistical database",
+      "description": "Employment, unemployment, wages and other labour statistics, including modeled estimates.",
+      "organization_id": "ilo",
+      "parent_id": null,
+      "catalog_ids": [
+        "undata-legacy"
+      ],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "International Labour Organization",
+      "topics": [
+        "A1",
+        "A6"
+      ],
+      "keywords": [
+        "labour",
+        "labor",
+        "employment",
+        "wages",
+        "unemployment"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "bulk_download",
+          "web_download"
+        ],
+        "formats": [
+          "CSV"
+        ],
+        "notes": "Public compressed CSV downloads. Distinguish national reported series from ILO estimates.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://ilostat.ilo.org/data/bulk/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://ilostat.ilo.org/data/bulk/"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://ilostat.ilo.org/data/bulk/",
+            "claim": "Bulk CSV files, dictionaries and indicator/area tables of contents."
+          }
+        ]
+      },
+      "organization_name": "International Labour Organization",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Economy and resources",
+        "Social development and institutions"
+      ],
+      "country_labels": [],
+      "card_url": "records/ilostat/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "sdg-global",
+      "kind": "dataset",
+      "name": "Global SDG Indicators Database",
+      "description": "Official dissemination of indicator series supplied through the SDG custodian process. SDGs are a separate policy crosswalk.",
+      "organization_id": "un",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "National statistical systems and SDG custodian agencies; see each indicator metadata file.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "United Nations Statistics Division",
+      "topics": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A6"
+      ],
+      "keywords": [
+        "SDG",
+        "sustainable development",
+        "custodian",
+        "indicators"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "api",
+          "web_download"
+        ],
+        "formats": [
+          "CSV",
+          "JSON"
+        ],
+        "notes": "Free data without an account; terms and attribution can still apply.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://unstats.un.org/sdgs/metadata/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://unstats.un.org/sdgs/indicators/database/"
+        },
+        {
+          "rel": "api_documentation",
+          "url": "https://unstats.un.org/SDGAPI/swagger/"
+        },
+        {
+          "rel": "methodology",
+          "url": "https://unstats.un.org/sdgs/metadata/"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://unstats.un.org/sdgs/metadata/",
+            "claim": "Official indicator definitions and custodian metadata."
+          },
+          {
+            "url": "https://unstats.un.org/SDGAPI/swagger/",
+            "claim": "UNSD exposes API documentation."
+          }
+        ]
+      },
+      "organization_name": "United Nations Secretariat",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Economy and resources",
+        "Demography and population health",
+        "Environment and climate",
+        "Defence and security",
+        "Social development and institutions"
+      ],
+      "country_labels": [],
+      "card_url": "records/sdg-global/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "unhcr-population",
+      "kind": "dataset",
+      "name": "UNHCR Refugee Data Portal: population statistics",
+      "description": "Official aggregate population statistics on people affected by forced displacement and statelessness.",
+      "organization_id": "unhcr",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "UNHCR, governments and contributing sources identified in series metadata.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "United Nations High Commissioner for Refugees",
+      "topics": [
+        "A2",
+        "A4",
+        "A6"
+      ],
+      "keywords": [
+        "refugees",
+        "displacement",
+        "migration",
+        "statelessness"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "api",
+          "web_download"
+        ],
+        "formats": [
+          "JSON",
+          "CSV"
+        ],
+        "notes": "Open API with quotas. Current documentation discourages continuous/high-volume extraction and use as a production backend; contact UNHCR before such automation.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://refugeedata.unhcr.org/en/documentation/start-here/about/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://refugeedata.unhcr.org/en/data-finder/"
+        },
+        {
+          "rel": "api_documentation",
+          "url": "https://refugeedata.unhcr.org/en/documentation/technical-reference/api/"
+        },
+        {
+          "rel": "api_example",
+          "url": "https://api-data.unhcr.org/api/v0/catalog?q=population%20statistics"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://refugeedata.unhcr.org/en/documentation/start-here/about/",
+            "claim": "Portal replaces/expands the Refugee Data Finder and is separate from the Microdata Library."
+          },
+          {
+            "url": "https://refugeedata.unhcr.org/en/documentation/technical-reference/api/",
+            "claim": "No-account API and CSV export are documented."
+          }
+        ]
+      },
+      "organization_name": "United Nations High Commissioner for Refugees",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Demography and population health",
+        "Defence and security",
+        "Social development and institutions"
+      ],
+      "country_labels": [],
+      "card_url": "records/unhcr-population/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "unodc-homicide",
+      "kind": "dataset",
+      "name": "UNODC intentional homicide statistics",
+      "description": "Country-level homicide statistics and disaggregations published by UNODC.",
+      "organization_id": "unodc",
+      "parent_id": "unodc-portal",
+      "catalog_ids": [
+        "unodc-portal"
+      ],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "United Nations Office on Drugs and Crime",
+      "topics": [
+        "A4",
+        "A6"
+      ],
+      "keywords": [
+        "homicide",
+        "violence",
+        "16.1.1",
+        "security"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "web_download"
+        ],
+        "formats": [
+          "XLSX"
+        ],
+        "notes": "Public downloadable statistics; administrative reporting, legal definitions and completeness vary.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://data.unodc.org/datareport/hom-victim"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://data.unodc.org/datareport/hom-victim"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://data.unodc.org/datareport/hom-victim",
+            "claim": "Dedicated homicide page exposes a Download data link and metadata."
+          }
+        ]
+      },
+      "organization_name": "United Nations Office on Drugs and Crime",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Defence and security",
+        "Social development and institutions"
+      ],
+      "country_labels": [],
+      "card_url": "records/unodc-homicide/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "wdi",
+      "kind": "dataset",
+      "name": "World Development Indicators",
+      "description": "Cross-country development indicators compiled from national and international producers.",
+      "organization_id": "world-bank",
+      "parent_id": null,
+      "catalog_ids": [
+        "wb-data-catalog"
+      ],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "World Bank",
+      "topics": [
+        "A1",
+        "A2",
+        "A3",
+        "A6"
+      ],
+      "keywords": [
+        "GDP",
+        "income",
+        "poverty",
+        "education",
+        "economy"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "api",
+          "web_download"
+        ],
+        "formats": [
+          "JSON",
+          "XML",
+          "CSV"
+        ],
+        "notes": "Public Indicators API; preserve each series source and licensing metadata.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://data.worldbank.org/"
+        },
+        {
+          "rel": "api_documentation",
+          "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation"
+        },
+        {
+          "rel": "api_example",
+          "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?format=json&per_page=5"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
+            "claim": "Indicators API documentation and query routes."
+          }
+        ]
+      },
+      "organization_name": "World Bank",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Economy and resources",
+        "Demography and population health",
+        "Environment and climate",
+        "Social development and institutions"
+      ],
+      "country_labels": [],
+      "card_url": "records/wdi/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "who-gho",
+      "kind": "dataset",
+      "name": "WHO Global Health Observatory",
+      "description": "International health indicators with an officially documented OData interface.",
+      "organization_id": "who",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "See the original series or study documentation; producers vary.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "World Health Organization",
+      "topics": [
+        "A2",
+        "A3"
+      ],
+      "keywords": [
+        "health",
+        "mortality",
+        "life expectancy",
+        "air pollution"
+      ],
+      "data_levels": [
+        "aggregate"
+      ],
+      "observation_units": [
+        "country",
+        "region"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "api",
+          "web_interface"
+        ],
+        "formats": [
+          "JSON",
+          "XML"
+        ],
+        "notes": "Public API documented by WHO. Endpoint behavior was not exhaustively tested; preserve indicator metadata.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://www.who.int/data/gho/info/gho-odata-api"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://www.who.int/data/gho"
+        },
+        {
+          "rel": "api_documentation",
+          "url": "https://www.who.int/data/gho/info/gho-odata-api"
+        },
+        {
+          "rel": "api_example",
+          "url": "https://ghoapi.azureedge.net/api/Indicator"
+        }
+      ],
+      "survey": null,
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://www.who.int/data/gho/info/gho-odata-api",
+            "claim": "Public OData query examples for indicators and dimensions."
+          }
+        ]
+      },
+      "organization_name": "World Health Organization",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Demography and population health",
+        "Environment and climate"
+      ],
+      "country_labels": [],
+      "card_url": "records/who-gho/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "wvs-wave7",
+      "kind": "dataset",
+      "name": "World Values Survey Wave 7 (2017-2022)",
+      "description": "Integrated respondent data and documentation for the seventh WVS wave.",
+      "organization_id": "wvsa",
+      "parent_id": "wvs",
+      "catalog_ids": [],
+      "original_producer": "WVSA and national principal investigators.",
+      "collector": "National WVS survey teams.",
+      "publisher": "World Values Survey Association",
+      "topics": [
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ],
+      "keywords": [
+        "social trust",
+        "happiness",
+        "life satisfaction",
+        "values",
+        "religion"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "2017-2022 wave label; country fieldwork dates vary.",
+      "release": "Wave 7; select and cite the specific version shown by the archive.",
+      "access": {
+        "status": "REGISTER",
+        "free_data_available": true,
+        "methods": [
+          "web_download"
+        ],
+        "formats": [
+          "Stata",
+          "SPSS",
+          "SAS",
+          "R"
+        ],
+        "notes": "Free access subject to the current WVS registration/form and non-redistribution policy. No account was created.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Documentation"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp"
+        },
+        {
+          "rel": "documentation",
+          "url": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Documentation"
+        }
+      ],
+      "survey": {
+        "method": "Cross-national respondent interviews; modes and national designs vary.",
+        "weights": "Survey weights supplied; select weights appropriate to the release and comparison.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Translations, fieldwork periods, sampling and question wording need review."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Documentation",
+            "claim": "Current documentation specifies free registration and a non-redistribution license."
+          },
+          {
+            "url": "https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp",
+            "claim": "Wave 7 is listed as 2017-2022."
+          }
+        ]
+      },
+      "organization_name": "World Values Survey Association",
+      "un_relation": "INDEPENDENT",
+      "topic_labels": [
+        "Health and subjective well-being",
+        "Family and reproductive relations",
+        "Social relations",
+        "Political participation and the state",
+        "Values, norms and beliefs",
+        "Risk, safety and migration"
+      ],
+      "country_labels": [],
+      "card_url": "records/wvs-wave7/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "afrobarometer",
+      "kind": "program",
+      "name": "Afrobarometer surveys",
+      "description": "Public opinion and reported experience surveys covering governance, services, trust and safety in African countries.",
+      "organization_id": "afrobarometer-org",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "Afrobarometer network and national partners.",
+      "collector": "Afrobarometer national partners.",
+      "publisher": "Afrobarometer",
+      "topics": [
+        "B2",
+        "B3",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ],
+      "keywords": [
+        "Africa",
+        "democracy",
+        "trust",
+        "safety",
+        "services"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Africa"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "OPEN",
+        "free_data_available": true,
+        "methods": [
+          "web_download"
+        ],
+        "formats": [
+          "SPSS"
+        ],
+        "notes": "Free data without an account; terms and attribution can still apply.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://www.afrobarometer.org/data/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://www.afrobarometer.org/data/"
+        }
+      ],
+      "survey": {
+        "method": "National adult sample surveys; inspect country sampling and questionnaires.",
+        "weights": "Weights are documented with each merged round.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Pooled continent estimates require population/coverage decisions; survey rounds span years."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://www.afrobarometer.org/data/",
+            "claim": "Public country and merged survey data are free to use."
+          },
+          {
+            "url": "https://www.afrobarometer.org/data/data-usage-and-access-policy/",
+            "claim": "Provider access and usage policy."
+          }
+        ]
+      },
+      "organization_name": "Afrobarometer",
+      "un_relation": "INDEPENDENT",
+      "topic_labels": [
+        "Financial and economic behaviour",
+        "Health and subjective well-being",
+        "Social relations",
+        "Political participation and the state",
+        "Values, norms and beliefs",
+        "Risk, safety and migration"
+      ],
+      "country_labels": [],
+      "card_url": "records/afrobarometer/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ess",
+      "kind": "program",
+      "name": "European Social Survey",
+      "description": "Repeated comparative surveys of attitudes, trust, politics, well-being and social conditions.",
+      "organization_id": "ess-eric",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "ESS ERIC and national survey teams.",
+      "collector": "National ESS survey teams.",
+      "publisher": "European Social Survey ERIC",
+      "topics": [
+        "B2",
+        "B3",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ],
+      "keywords": [
+        "Europe",
+        "trust",
+        "politics",
+        "well-being",
+        "discrimination"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Europe"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "REGISTER",
+        "free_data_available": true,
+        "methods": [
+          "web_download"
+        ],
+        "formats": [
+          "CSV",
+          "Stata",
+          "SPSS"
+        ],
+        "notes": "Free registration for the access route described in the official prospectus; consult the selected release license. The data portal was not tested while logged in.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://www.europeansocialsurvey.org/sites/default/files/2024-04/prospectus_updated.pdf"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://www.europeansocialsurvey.org/"
+        },
+        {
+          "rel": "data_portal",
+          "url": "https://ess.sikt.no/"
+        }
+      ],
+      "survey": {
+        "method": "Repeated cross-sectional probability surveys; verify mode in the selected round.",
+        "weights": "Design/post-stratification and population weighting guidance is release-specific.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Round, module, translation and mode changes can limit comparisons."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://www.europeansocialsurvey.org/sites/default/files/2024-04/prospectus_updated.pdf",
+            "claim": "ESS describes free non-commercial access after registration, downloadable integrated files and a file builder."
+          }
+        ]
+      },
+      "organization_name": "European Social Survey ERIC",
+      "un_relation": "INDEPENDENT",
+      "topic_labels": [
+        "Financial and economic behaviour",
+        "Health and subjective well-being",
+        "Social relations",
+        "Political participation and the state",
+        "Values, norms and beliefs",
+        "Risk, safety and migration"
+      ],
+      "country_labels": [],
+      "card_url": "records/ess/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "ipums-mics",
+      "kind": "program",
+      "name": "IPUMS MICS harmonized extracts",
+      "description": "Variable-level discovery and harmonized extracts of participating MICS samples. Links back to UNICEF-controlled data access.",
+      "organization_id": "ipums",
+      "parent_id": "mics",
+      "catalog_ids": [],
+      "original_producer": "National MICS producers; IPUMS harmonizes.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "IPUMS documentation; UNICEF supplies data downloads.",
+      "topics": [
+        "B2",
+        "B3",
+        "B4"
+      ],
+      "keywords": [
+        "IPUMS",
+        "harmonization",
+        "children",
+        "women"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person",
+        "household"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "APPLY",
+        "free_data_available": true,
+        "methods": [
+          "research_application",
+          "web_download"
+        ],
+        "formats": [
+          "Stata"
+        ],
+        "notes": "No fee; approved UNICEF MICS access is required. IPUMS MICS is a representation of MICS, not an independent survey.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://mics.ipums.org/mics/user_guide.shtml"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://mics.ipums.org/mics/"
+        }
+      ],
+      "survey": {
+        "method": "Harmonized MICS samples with selectable units of analysis.",
+        "weights": "Retain sample-specific weights, strata and cluster variables.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Harmonization does not erase differences in universe, wording or fieldwork."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://mics.ipums.org/mics/user_guide.shtml",
+            "claim": "Free extracts by unit of analysis; UNICEF account and download."
+          },
+          {
+            "url": "https://mics.ipums.org/mics/register.shtml",
+            "claim": "UNICEF authorization carries over to IPUMS MICS."
+          }
+        ]
+      },
+      "organization_name": "IPUMS",
+      "un_relation": "UN_PARTNER",
+      "topic_labels": [
+        "Financial and economic behaviour",
+        "Health and subjective well-being",
+        "Family and reproductive relations"
+      ],
+      "country_labels": [],
+      "card_url": "records/ipums-mics/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "issp",
+      "kind": "program",
+      "name": "International Social Survey Programme",
+      "description": "Annual cross-national modules on social inequality, religion, family, government and other topics.",
+      "organization_id": "issp-network",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "ISSP national member teams; GESIS integrates and harmonizes releases.",
+      "collector": "National ISSP member institutes.",
+      "publisher": "GESIS Data Archive for the Social Sciences",
+      "topics": [
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7"
+      ],
+      "keywords": [
+        "inequality",
+        "fairness",
+        "religion",
+        "family",
+        "government"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "REGISTER",
+        "free_data_available": true,
+        "methods": [
+          "web_download"
+        ],
+        "formats": [
+          "Stata",
+          "SPSS"
+        ],
+        "notes": "Free data after account creation or a user registration form, without substantive project review.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://issp.org/data-download/"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://issp.org/data-download/"
+        }
+      ],
+      "survey": {
+        "method": "National surveys using a common annual thematic module.",
+        "weights": "Use study-specific weights and methods.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Modules repeat at intervals; membership and questions vary."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://issp.org/data-download/",
+            "claim": "Free download after GESIS registration."
+          },
+          {
+            "url": "https://issp.org/data-download/archive/",
+            "claim": "GESIS is the official archive and integrates national datasets."
+          }
+        ]
+      },
+      "organization_name": "International Social Survey Programme",
+      "un_relation": "INDEPENDENT",
+      "topic_labels": [
+        "Financial and economic behaviour",
+        "Health and subjective well-being",
+        "Family and reproductive relations",
+        "Social relations",
+        "Political participation and the state",
+        "Values, norms and beliefs"
+      ],
+      "country_labels": [],
+      "card_url": "records/issp/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "lsms",
+      "kind": "program",
+      "name": "Living Standards Measurement Study",
+      "description": "Programme supporting household surveys and methodological work; discover country studies through the Microdata Library.",
+      "organization_id": "world-bank",
+      "parent_id": null,
+      "catalog_ids": [
+        "wb-microdata"
+      ],
+      "original_producer": "National statistical agencies supported by the World Bank LSMS programme.",
+      "collector": "National statistical offices, administrative systems or survey teams; varies by source.",
+      "publisher": "World Bank",
+      "topics": [
+        "B2",
+        "B3",
+        "B4",
+        "B8"
+      ],
+      "keywords": [
+        "consumption",
+        "income",
+        "agriculture",
+        "LSMS",
+        "household budget"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "household",
+        "person"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "METADATA_ONLY",
+        "free_data_available": false,
+        "methods": [
+          "web_interface"
+        ],
+        "formats": [
+          "DDI"
+        ],
+        "notes": "Directory entry only: study-level routes differ. Check each release; the seed does not generalize a free download route to the entire programme.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://microdata.worldbank.org/index.php/catalog/3823"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://microdata.worldbank.org/index.php/catalog/lsms"
+        }
+      ],
+      "survey": {
+        "method": "Household multi-topic surveys; some studies are longitudinal.",
+        "weights": "Use each country study weights and panel/attrition guidance.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Designs, expenditure recall, agricultural modules and panel structures differ."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://microdata.worldbank.org/index.php/catalog/3823",
+            "claim": "Example LSMS study and national producer."
+          },
+          {
+            "url": "https://microdata.worldbank.org/index.php/catalog/3823/get-microdata",
+            "claim": "This example currently says Data Access Not Available."
+          }
+        ]
+      },
+      "organization_name": "World Bank",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Financial and economic behaviour",
+        "Health and subjective well-being",
+        "Family and reproductive relations",
+        "Risk, safety and migration"
+      ],
+      "country_labels": [],
+      "card_url": "records/lsms/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "mics",
+      "kind": "program",
+      "name": "Multiple Indicator Cluster Surveys",
+      "description": "National surveys of children, women and households, supported by UNICEF.",
+      "organization_id": "unicef",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "Participating national statistical agencies, with UNICEF technical support.",
+      "collector": "National MICS implementing agencies.",
+      "publisher": "United Nations Children's Fund",
+      "topics": [
+        "B2",
+        "B3",
+        "B4",
+        "B8"
+      ],
+      "keywords": [
+        "children",
+        "women",
+        "family",
+        "fertility",
+        "health",
+        "households"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person",
+        "household"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "APPLY",
+        "free_data_available": true,
+        "methods": [
+          "research_application",
+          "web_download"
+        ],
+        "formats": [
+          "SPSS"
+        ],
+        "notes": "Free legitimate research access after UNICEF authorization, subject to country permission and release availability. Public reports are separate from microdata access.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://www.unicef.org/pacificislands/stories/multiple-indicator-cluster-survey-pacific"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://mics.unicef.org/surveys"
+        }
+      ],
+      "survey": {
+        "method": "Household sample surveys with linked household, member, women and child files.",
+        "weights": "File- and population-specific survey weights; account for clusters and strata.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Optional modules and eligibility differ across surveys; do not assume all questions appear everywhere."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://www.unicef.org/pacificislands/stories/multiple-indicator-cluster-survey-pacific",
+            "claim": "Reports and consented microdata are free for legitimate research; users apply for access."
+          },
+          {
+            "url": "https://mics.ipums.org/mics/register.shtml",
+            "claim": "UNICEF controls authorization; requests require review."
+          }
+        ]
+      },
+      "organization_name": "United Nations Children's Fund",
+      "un_relation": "UN_SYSTEM",
+      "topic_labels": [
+        "Financial and economic behaviour",
+        "Health and subjective well-being",
+        "Family and reproductive relations",
+        "Risk, safety and migration"
+      ],
+      "country_labels": [],
+      "card_url": "records/mics/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "mtus",
+      "kind": "program",
+      "name": "Multinational Time Use Study",
+      "description": "Harmonized national time diary surveys for studying daily activities and unpaid care.",
+      "organization_id": "ctur",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "Original national survey producers; CTUR harmonizes MTUS files.",
+      "collector": "National time-use survey organizations.",
+      "publisher": "Centre for Time Use Research",
+      "topics": [
+        "B1",
+        "B2",
+        "B4"
+      ],
+      "keywords": [
+        "time use",
+        "care",
+        "diary",
+        "sleep",
+        "leisure",
+        "unpaid work"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person",
+        "diary_day",
+        "household"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "APPLY",
+        "free_data_available": true,
+        "methods": [
+          "research_application",
+          "web_download"
+        ],
+        "formats": [
+          "Stata",
+          "SPSS"
+        ],
+        "notes": "Free researcher access with registration and authorization. Only the no-fee accessible MTUS route is in scope; restricted national source files are not promised. Redistribution prohibited by provider terms.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://www.timeuse.org/mtus/access"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://www.timeuse.org/mtus"
+        }
+      ],
+      "survey": {
+        "method": "Time diaries harmonized across national studies.",
+        "weights": "Diary/day and respondent weights differ; consult the user guide.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Diary design, activity coding, simultaneous activities and survey years vary."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://www.timeuse.org/mtus/access",
+            "claim": "No-fee user registration; restricted national files need additional permission."
+          },
+          {
+            "url": "https://www.timeuse.org/MTUS-User-Guide",
+            "claim": "Access requires registration and authorization; describes diary and harmonized files."
+          }
+        ]
+      },
+      "organization_name": "Centre for Time Use Research",
+      "un_relation": "INDEPENDENT",
+      "topic_labels": [
+        "Time use",
+        "Financial and economic behaviour",
+        "Family and reproductive relations"
+      ],
+      "country_labels": [],
+      "card_url": "records/mtus/"
+    },
+    {
+      "schema_version": "1.0",
+      "id": "wvs",
+      "kind": "program",
+      "name": "World Values Survey",
+      "description": "Repeated cross-national surveys of trust, values, beliefs, well-being and political attitudes.",
+      "organization_id": "wvsa",
+      "parent_id": null,
+      "catalog_ids": [],
+      "original_producer": "WVSA and national principal investigators.",
+      "collector": "National WVS survey teams.",
+      "publisher": "World Values Survey Association",
+      "topics": [
+        "B3",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8"
+      ],
+      "keywords": [
+        "trust",
+        "happiness",
+        "religion",
+        "fairness",
+        "tolerance",
+        "values"
+      ],
+      "data_levels": [
+        "microdata"
+      ],
+      "observation_units": [
+        "person"
+      ],
+      "geography": {
+        "scope": "multi_country",
+        "regions": [
+          "Global / multi-region"
+        ],
+        "country_codes": [],
+        "coverage_completeness": "not_enumerated",
+        "notes": "Country tags are verified examples only. Consult the original source for the full country-by-year and variable inventory."
+      },
+      "time_coverage": "Varies by series, country and release; consult the original source.",
+      "release": null,
+      "access": {
+        "status": "REGISTER",
+        "free_data_available": true,
+        "methods": [
+          "web_download"
+        ],
+        "formats": [
+          "Stata",
+          "SPSS",
+          "SAS",
+          "R"
+        ],
+        "notes": "Classified conservatively from current documentation: free registration/form and non-redistribution terms. An older 2020 release announcement said no registration; interface requirements may vary.",
+        "license_name": "Provider-specific terms; see the access evidence and original record.",
+        "license_url": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Documentation"
+      },
+      "links": [
+        {
+          "rel": "landing",
+          "url": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Documentation"
+        }
+      ],
+      "survey": {
+        "method": "Cross-national respondent interviews; modes and national designs vary.",
+        "weights": "Survey weights supplied; select weights appropriate to the release and comparison.",
+        "representativeness": "Read the country/wave sampling documentation; a programme name is not a universal representativeness guarantee.",
+        "comparability": "Translations, fieldwork periods, sampling and question wording need review."
+      },
+      "verification": {
+        "status": "verified",
+        "checked_on": "2026-11-07",
+        "method": "public_documentation",
+        "scope": "Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were not performed.",
+        "evidence": [
+          {
+            "url": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Documentation",
+            "claim": "Current documentation specifies free registration and a non-redistribution license."
+          },
+          {
+            "url": "https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp",
+            "claim": "Wave 7 is listed as 2017-2022."
+          }
+        ]
+      },
+      "organization_name": "World Values Survey Association",
+      "un_relation": "INDEPENDENT",
+      "topic_labels": [
+        "Health and subjective well-being",
+        "Family and reproductive relations",
+        "Social relations",
+        "Political participation and the state",
+        "Values, norms and beliefs",
+        "Risk, safety and migration"
+      ],
+      "country_labels": [],
+      "card_url": "records/wvs/"
+    }
+  ],
+  "topics": [
+    {
+      "id": "A1",
+      "name": "Economy and resources",
+      "description": "Macroeconomics, income, public finance, taxation, labour, trade, sectors, extraction, energy and infrastructure."
+    },
+    {
+      "id": "A2",
+      "name": "Demography and population health",
+      "description": "Population, fertility, mortality, migration, disease and health systems."
+    },
+    {
+      "id": "A3",
+      "name": "Environment and climate",
+      "description": "Emissions, net zero, air and water quality, light and noise pollution, biodiversity, land and climate risks."
+    },
+    {
+      "id": "A4",
+      "name": "Defence and security",
+      "description": "Military expenditure, arms, conflict, crime, violence and public safety."
+    },
+    {
+      "id": "A5",
+      "name": "International relations and affiliations",
+      "description": "Memberships, alliances, treaties, diplomatic relations and UN voting."
+    },
+    {
+      "id": "A6",
+      "name": "Social development and institutions",
+      "description": "Education, poverty, inequality, social protection, housing, governance, justice and digital inclusion."
+    },
+    {
+      "id": "B1",
+      "name": "Time use",
+      "description": "Paid and unpaid work, care, sleep, leisure, learning, travel and media."
+    },
+    {
+      "id": "B2",
+      "name": "Financial and economic behaviour",
+      "description": "Income, spending, saving, borrowing, employment, enterprise and economic decisions."
+    },
+    {
+      "id": "B3",
+      "name": "Health and subjective well-being",
+      "description": "Self-rated health, behaviour, happiness, life satisfaction and mental well-being."
+    },
+    {
+      "id": "B4",
+      "name": "Family and reproductive relations",
+      "description": "Partnerships, fertility, parenting, reproductive behaviour and care responsibilities."
+    },
+    {
+      "id": "B5",
+      "name": "Social relations",
+      "description": "Trust, contact, networks, volunteering, discrimination, tolerance and social support."
+    },
+    {
+      "id": "B6",
+      "name": "Political participation and the state",
+      "description": "Voting, civic action, institutional trust and experiences with public institutions."
+    },
+    {
+      "id": "B7",
+      "name": "Values, norms and beliefs",
+      "description": "Fairness, morality, religion, spiritual practices, identity and social expectations."
+    },
+    {
+      "id": "B8",
+      "name": "Risk, safety and migration",
+      "description": "Perceived threats, violence, personal safety, migration motives and adaptation."
+    }
+  ],
+  "geography": {
+    "regions": [
+      "Global / multi-region",
+      "Africa",
+      "Americas",
+      "Asia",
+      "Europe",
+      "Oceania"
+    ],
+    "countries": [
+      {
+        "code": "ARG",
+        "name": "Argentina"
+      },
+      {
+        "code": "AUS",
+        "name": "Australia"
+      },
+      {
+        "code": "BGD",
+        "name": "Bangladesh"
+      },
+      {
+        "code": "BRA",
+        "name": "Brazil"
+      },
+      {
+        "code": "CAN",
+        "name": "Canada"
+      },
+      {
+        "code": "CHN",
+        "name": "China"
+      },
+      {
+        "code": "DEU",
+        "name": "Germany"
+      },
+      {
+        "code": "ETH",
+        "name": "Ethiopia"
+      },
+      {
+        "code": "FRA",
+        "name": "France"
+      },
+      {
+        "code": "GBR",
+        "name": "United Kingdom"
+      },
+      {
+        "code": "GHA",
+        "name": "Ghana"
+      },
+      {
+        "code": "IND",
+        "name": "India"
+      },
+      {
+        "code": "JPN",
+        "name": "Japan"
+      },
+      {
+        "code": "KEN",
+        "name": "Kenya"
+      },
+      {
+        "code": "MEX",
+        "name": "Mexico"
+      },
+      {
+        "code": "NGA",
+        "name": "Nigeria"
+      },
+      {
+        "code": "USA",
+        "name": "United States"
+      },
+      {
+        "code": "ZAF",
+        "name": "South Africa"
+      },
+      {
+        "code": "UGA",
+        "name": "Uganda"
+      },
+      {
+        "code": "ZMB",
+        "name": "Zambia"
+      }
+    ],
+    "policy": "Country tags are explicitly checked examples, not a complete coverage inventory. Global scope never implies every country, year or variable is available."
+  }
+}

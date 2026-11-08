@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: mics
+kind: program
+name: Multiple Indicator Cluster Surveys
+description: National surveys of children, women and households, supported by UNICEF.
+organization_id: unicef
+parent_id: null
+catalog_ids: []
+original_producer: Participating national statistical agencies, with UNICEF technical support.
+collector: National MICS implementing agencies.
+publisher: United Nations Children's Fund
+topics:
+- B2
+- B3
+- B4
+- B8
+keywords:
+- children
+- women
+- family
+- fertility
+- health
+- households
+data_levels:
+- microdata
+observation_units:
+- person
+- household
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: APPLY
+  free_data_available: true
+  methods:
+  - research_application
+  - web_download
+  formats:
+  - SPSS
+  notes: Free legitimate research access after UNICEF authorization, subject to country permission and release availability.
+    Public reports are separate from microdata access.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://www.unicef.org/pacificislands/stories/multiple-indicator-cluster-survey-pacific
+links:
+- rel: landing
+  url: https://mics.unicef.org/surveys
+survey:
+  method: Household sample surveys with linked household, member, women and child files.
+  weights: File- and population-specific survey weights; account for clusters and strata.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: Optional modules and eligibility differ across surveys; do not assume all questions appear everywhere.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://www.unicef.org/pacificislands/stories/multiple-indicator-cluster-survey-pacific
+    claim: Reports and consented microdata are free for legitimate research; users apply for access.
+  - url: https://mics.ipums.org/mics/register.shtml
+    claim: UNICEF controls authorization; requests require review.

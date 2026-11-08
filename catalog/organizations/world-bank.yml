@@ -1,0 +1,21 @@
+schema_version: '1.0'
+id: world-bank
+kind: organization
+name: World Bank
+description: Autonomous international financial institution in the UN system; not a subsidiary of the UN Secretariat.
+  Data publishers and original national producers are distinguished.
+website: https://www.worldbank.org/
+un_relation: UN_SYSTEM
+relation_note: Autonomous international financial institution in the UN system; not a subsidiary of the UN Secretariat.
+  Data publishers and original national producers are distinguished.
+topics: []
+keywords:
+- World Bank
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://unsceb.org/faq/
+    claim: World Bank Group participates in the UN system coordination board.

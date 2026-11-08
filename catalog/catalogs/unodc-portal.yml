@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: unodc-portal
+kind: catalog
+name: UNODC Data Portal
+description: Crime, drugs, violence, justice and related SDG statistics.
+organization_id: unodc
+parent_id: null
+catalog_ids: []
+original_producer: See the original series or study documentation; producers vary.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: United Nations Office on Drugs and Crime
+topics:
+- A4
+- A6
+keywords:
+- crime
+- homicide
+- violence
+- justice
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - web_download
+  formats:
+  - XLSX
+  notes: Public statistical tables are available; this card does not promise access to UNODC microdata.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://data.unodc.org/
+links:
+- rel: landing
+  url: https://data.unodc.org/
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://data.unodc.org/
+    claim: Crime and justice topic sections.
+  - url: https://data.unodc.org/datareport/hom-victim
+    claim: Homicide page includes metadata and data downloads.

@@ -1,0 +1,23 @@
+schema_version: '1.0'
+id: un
+kind: organization
+name: United Nations Secretariat
+description: UN Secretariat; statistical and treaty services have different responsible offices.
+website: https://www.un.org/
+un_relation: UN_SYSTEM
+relation_note: UN Secretariat; statistical and treaty services have different responsible offices.
+topics: []
+keywords:
+- United Nations Secretariat
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://unsceb.org/faq/
+    claim: UN is a CEB member.
+  - url: https://data.un.org/Default.aspx
+    claim: UN data service.
+  - url: https://treaties.un.org/
+    claim: UN treaty publication service.

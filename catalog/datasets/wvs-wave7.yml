@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: wvs-wave7
+kind: dataset
+name: World Values Survey Wave 7 (2017-2022)
+description: Integrated respondent data and documentation for the seventh WVS wave.
+organization_id: wvsa
+parent_id: wvs
+catalog_ids: []
+original_producer: WVSA and national principal investigators.
+collector: National WVS survey teams.
+publisher: World Values Survey Association
+topics:
+- B3
+- B4
+- B5
+- B6
+- B7
+- B8
+keywords:
+- social trust
+- happiness
+- life satisfaction
+- values
+- religion
+data_levels:
+- microdata
+observation_units:
+- person
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: 2017-2022 wave label; country fieldwork dates vary.
+release: Wave 7; select and cite the specific version shown by the archive.
+access:
+  status: REGISTER
+  free_data_available: true
+  methods:
+  - web_download
+  formats:
+  - Stata
+  - SPSS
+  - SAS
+  - R
+  notes: Free access subject to the current WVS registration/form and non-redistribution policy. No account was
+    created.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Documentation
+links:
+- rel: landing
+  url: https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp
+- rel: documentation
+  url: https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Documentation
+survey:
+  method: Cross-national respondent interviews; modes and national designs vary.
+  weights: Survey weights supplied; select weights appropriate to the release and comparison.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: Translations, fieldwork periods, sampling and question wording need review.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Documentation
+    claim: Current documentation specifies free registration and a non-redistribution license.
+  - url: https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp
+    claim: Wave 7 is listed as 2017-2022.

@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: unhcr-population
+kind: dataset
+name: 'UNHCR Refugee Data Portal: population statistics'
+description: Official aggregate population statistics on people affected by forced displacement and statelessness.
+organization_id: unhcr
+parent_id: null
+catalog_ids: []
+original_producer: UNHCR, governments and contributing sources identified in series metadata.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: United Nations High Commissioner for Refugees
+topics:
+- A2
+- A4
+- A6
+keywords:
+- refugees
+- displacement
+- migration
+- statelessness
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - api
+  - web_download
+  formats:
+  - JSON
+  - CSV
+  notes: Open API with quotas. Current documentation discourages continuous/high-volume extraction and use as a
+    production backend; contact UNHCR before such automation.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://refugeedata.unhcr.org/en/documentation/start-here/about/
+links:
+- rel: landing
+  url: https://refugeedata.unhcr.org/en/data-finder/
+- rel: api_documentation
+  url: https://refugeedata.unhcr.org/en/documentation/technical-reference/api/
+- rel: api_example
+  url: https://api-data.unhcr.org/api/v0/catalog?q=population%20statistics
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://refugeedata.unhcr.org/en/documentation/start-here/about/
+    claim: Portal replaces/expands the Refugee Data Finder and is separate from the Microdata Library.
+  - url: https://refugeedata.unhcr.org/en/documentation/technical-reference/api/
+    claim: No-account API and CSV export are documented.

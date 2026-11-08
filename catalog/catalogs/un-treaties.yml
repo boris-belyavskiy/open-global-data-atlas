@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: un-treaties
+kind: catalog
+name: United Nations Treaty Collection
+description: Treaty texts and depositary information on international commitments. Useful for affiliation research,
+  but not a ready-made alliance panel.
+organization_id: un
+parent_id: null
+catalog_ids: []
+original_producer: States and treaty parties; UN Treaty Section compiles depositary and registration information.
+collector: UN Office of Legal Affairs, Treaty Section.
+publisher: UN Office of Legal Affairs
+topics:
+- A5
+keywords:
+- treaties
+- ratification
+- affiliations
+- international law
+- alliances
+data_levels:
+- text_event
+observation_units:
+- treaty
+- country
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - web_interface
+  - web_download
+  formats:
+  - HTML
+  - PDF
+  notes: Public treaty documents and status information. A general bulk API and a complete historical alliance dataset
+    are not asserted.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://treaties.un.org/
+links:
+- rel: landing
+  url: https://treaties.un.org/
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://treaties.un.org/
+    claim: Treaty registration, depositary notices and public treaty documents.

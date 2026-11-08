@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: ilostat
+kind: dataset
+name: ILOSTAT statistical database
+description: Employment, unemployment, wages and other labour statistics, including modeled estimates.
+organization_id: ilo
+parent_id: null
+catalog_ids:
+- undata-legacy
+original_producer: See the original series or study documentation; producers vary.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: International Labour Organization
+topics:
+- A1
+- A6
+keywords:
+- labour
+- labor
+- employment
+- wages
+- unemployment
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - bulk_download
+  - web_download
+  formats:
+  - CSV
+  notes: Public compressed CSV downloads. Distinguish national reported series from ILO estimates.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://ilostat.ilo.org/data/bulk/
+links:
+- rel: landing
+  url: https://ilostat.ilo.org/data/bulk/
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://ilostat.ilo.org/data/bulk/
+    claim: Bulk CSV files, dictionaries and indicator/area tables of contents.

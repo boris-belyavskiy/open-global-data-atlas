@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: afro-round9
+kind: dataset
+name: Afrobarometer merged Round 9 (39 countries)
+description: Merged public-use respondent file and codebook for Round 9. Deliberately a fixed historical seed, not
+  a claim to be the latest round.
+organization_id: afrobarometer-org
+parent_id: afrobarometer
+catalog_ids: []
+original_producer: Afrobarometer and national partners.
+collector: Afrobarometer national partners.
+publisher: Afrobarometer
+topics:
+- B2
+- B3
+- B5
+- B6
+- B7
+- B8
+keywords:
+- Africa
+- governance
+- trust
+- crime
+- safety
+data_levels:
+- microdata
+observation_units:
+- person
+geography:
+  scope: multi_country
+  regions:
+  - Africa
+  country_codes:
+  - ETH
+  - GHA
+  - KEN
+  - NGA
+  - ZAF
+  - UGA
+  - ZMB
+  coverage_completeness: partial
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Round 9; use country-specific fieldwork dates in the codebook.
+release: Merged Round 9, portal label 2023.
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - web_download
+  formats:
+  - SPSS
+  notes: Free data without an account; terms and attribution can still apply.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://www.afrobarometer.org/data/merged-data/
+links:
+- rel: landing
+  url: https://www.afrobarometer.org/data/merged-data/
+survey:
+  method: Cross-sectional adult survey interviews.
+  weights: Use the merged-round codebook weighting guidance.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: Compare overlapping questions and account for national fieldwork timing.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://www.afrobarometer.org/data/merged-data/
+    claim: Round 9 data and codebook links; newer rounds are listed separately.
+  - url: https://www.afrobarometer.org/survey-resource/merged-round-9-codebook-39-countries-2023/
+    claim: Round 9 codebook resource.

@@ -1,0 +1,24 @@
+- id: B1
+  name: Time use
+  description: Paid and unpaid work, care, sleep, leisure, learning, travel and media.
+- id: B2
+  name: Financial and economic behaviour
+  description: Income, spending, saving, borrowing, employment, enterprise and economic decisions.
+- id: B3
+  name: Health and subjective well-being
+  description: Self-rated health, behaviour, happiness, life satisfaction and mental well-being.
+- id: B4
+  name: Family and reproductive relations
+  description: Partnerships, fertility, parenting, reproductive behaviour and care responsibilities.
+- id: B5
+  name: Social relations
+  description: Trust, contact, networks, volunteering, discrimination, tolerance and social support.
+- id: B6
+  name: Political participation and the state
+  description: Voting, civic action, institutional trust and experiences with public institutions.
+- id: B7
+  name: Values, norms and beliefs
+  description: Fairness, morality, religion, spiritual practices, identity and social expectations.
+- id: B8
+  name: Risk, safety and migration
+  description: Perceived threats, violence, personal safety, migration motives and adaptation.

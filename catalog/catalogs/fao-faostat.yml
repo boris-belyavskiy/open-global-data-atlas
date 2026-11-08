@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: fao-faostat
+kind: catalog
+name: FAOSTAT
+description: Food, agriculture, land, inputs and agrifood emissions data.
+organization_id: fao
+parent_id: null
+catalog_ids: []
+original_producer: See the original series or study documentation; producers vary.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: Food and Agriculture Organization
+topics:
+- A1
+- A3
+keywords:
+- agriculture
+- food
+- emissions
+- land
+- resources
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Many series start in 1961; coverage depends on domain.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - web_download
+  - bulk_download
+  - web_interface
+  formats:
+  - CSV
+  notes: Free public data. Domain-specific coverage, source notes and FAO terms still apply.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://www.fao.org/faostat/
+links:
+- rel: landing
+  url: https://www.fao.org/faostat/
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://www.fao.org/faostat/
+    claim: FAO explicitly describes free access to country and regional food and agriculture data.

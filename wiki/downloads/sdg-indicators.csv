@@ -1,0 +1,9 @@
+record_id,topic_id,goal,target,indicator,mapping_type,note,evidence_url
+sdg-global,A1,8,8.5,8.5.2,official_series,Unemployment rate,https://unstats.un.org/sdgs/metadata/
+sdg-global,A2,3,3.2,3.2.1,official_series,Under-five mortality,https://unstats.un.org/sdgs/metadata/
+sdg-global,A3,6,6.3,6.3.2,official_series,Ambient water quality,https://unstats.un.org/sdgs/metadata/
+sdg-global,A4,16,16.1,16.1.1,official_series,Intentional homicide,https://unstats.un.org/sdgs/metadata/
+sdg-global,A6,1,1.2,1.2.1,official_series,National poverty,https://unstats.un.org/sdgs/metadata/
+findex-aggregates,A6,8,8.10,8.10.2,related_measure,Account ownership: verify exact series definition and population before matching.,https://www.worldbank.org/en/publication/globalfindex/download-data
+mtus,B1,5,5.4,5.4.1,potential_input,Unpaid care diaries can inform this indicator; MTUS is not itself the official SDG series.,https://www.timeuse.org/mtus
+mics,B4,3,3.7,3.7.1,potential_input,Reproductive health survey modules; availability and SDG-compatible definition depend on the study.,https://mics.unicef.org/surveys

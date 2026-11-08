@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: ess
+kind: program
+name: European Social Survey
+description: Repeated comparative surveys of attitudes, trust, politics, well-being and social conditions.
+organization_id: ess-eric
+parent_id: null
+catalog_ids: []
+original_producer: ESS ERIC and national survey teams.
+collector: National ESS survey teams.
+publisher: European Social Survey ERIC
+topics:
+- B2
+- B3
+- B5
+- B6
+- B7
+- B8
+keywords:
+- Europe
+- trust
+- politics
+- well-being
+- discrimination
+data_levels:
+- microdata
+observation_units:
+- person
+geography:
+  scope: multi_country
+  regions:
+  - Europe
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: REGISTER
+  free_data_available: true
+  methods:
+  - web_download
+  formats:
+  - CSV
+  - Stata
+  - SPSS
+  notes: Free registration for the access route described in the official prospectus; consult the selected release
+    license. The data portal was not tested while logged in.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://www.europeansocialsurvey.org/sites/default/files/2024-04/prospectus_updated.pdf
+links:
+- rel: landing
+  url: https://www.europeansocialsurvey.org/
+- rel: data_portal
+  url: https://ess.sikt.no/
+survey:
+  method: Repeated cross-sectional probability surveys; verify mode in the selected round.
+  weights: Design/post-stratification and population weighting guidance is release-specific.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: Round, module, translation and mode changes can limit comparisons.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://www.europeansocialsurvey.org/sites/default/files/2024-04/prospectus_updated.pdf
+    claim: ESS describes free non-commercial access after registration, downloadable integrated files and a file
+      builder.

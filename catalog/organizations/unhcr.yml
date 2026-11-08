@@ -1,0 +1,19 @@
+schema_version: '1.0'
+id: unhcr
+kind: organization
+name: United Nations High Commissioner for Refugees
+description: UN refugee agency; publishes displacement statistics and a separate microdata library.
+website: https://www.unhcr.org/
+un_relation: UN_SYSTEM
+relation_note: UN refugee agency; publishes displacement statistics and a separate microdata library.
+topics: []
+keywords:
+- United Nations High Commissioner for Refugees
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://unsceb.org/faq/
+    claim: UNHCR is a UN system CEB member.

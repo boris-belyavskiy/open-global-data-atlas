@@ -1,0 +1,50 @@
+regions:
+- Global / multi-region
+- Africa
+- Americas
+- Asia
+- Europe
+- Oceania
+countries:
+- code: ARG
+  name: Argentina
+- code: AUS
+  name: Australia
+- code: BGD
+  name: Bangladesh
+- code: BRA
+  name: Brazil
+- code: CAN
+  name: Canada
+- code: CHN
+  name: China
+- code: DEU
+  name: Germany
+- code: ETH
+  name: Ethiopia
+- code: FRA
+  name: France
+- code: GBR
+  name: United Kingdom
+- code: GHA
+  name: Ghana
+- code: IND
+  name: India
+- code: JPN
+  name: Japan
+- code: KEN
+  name: Kenya
+- code: MEX
+  name: Mexico
+- code: NGA
+  name: Nigeria
+- code: USA
+  name: United States
+- code: ZAF
+  name: South Africa
+- code: UGA
+  name: Uganda
+- code: ZMB
+  name: Zambia
+policy: Country tags are explicitly checked examples, not a complete coverage inventory. Global scope never implies
+  every country, year or variable is available.

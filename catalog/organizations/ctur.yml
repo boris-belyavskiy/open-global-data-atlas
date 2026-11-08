@@ -1,0 +1,19 @@
+schema_version: '1.0'
+id: ctur
+kind: organization
+name: Centre for Time Use Research
+description: Research centre maintaining the Multinational Time Use Study; harmonizes national diary surveys.
+website: https://www.timeuse.org/
+un_relation: INDEPENDENT
+relation_note: Research centre maintaining the Multinational Time Use Study; harmonizes national diary surveys.
+topics: []
+keywords:
+- Centre for Time Use Research
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://www.timeuse.org/mtus
+    claim: MTUS organization and harmonization role.

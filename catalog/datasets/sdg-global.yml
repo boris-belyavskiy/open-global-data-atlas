@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: sdg-global
+kind: dataset
+name: Global SDG Indicators Database
+description: Official dissemination of indicator series supplied through the SDG custodian process. SDGs are a separate
+  policy crosswalk.
+organization_id: un
+parent_id: null
+catalog_ids: []
+original_producer: National statistical systems and SDG custodian agencies; see each indicator metadata file.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: United Nations Statistics Division
+topics:
+- A1
+- A2
+- A3
+- A4
+- A6
+keywords:
+- SDG
+- sustainable development
+- custodian
+- indicators
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - api
+  - web_download
+  formats:
+  - CSV
+  - JSON
+  notes: Free data without an account; terms and attribution can still apply.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://unstats.un.org/sdgs/metadata/
+links:
+- rel: landing
+  url: https://unstats.un.org/sdgs/indicators/database/
+- rel: api_documentation
+  url: https://unstats.un.org/SDGAPI/swagger/
+- rel: methodology
+  url: https://unstats.un.org/sdgs/metadata/
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://unstats.un.org/sdgs/metadata/
+    claim: Official indicator definitions and custodian metadata.
+  - url: https://unstats.un.org/SDGAPI/swagger/
+    claim: UNSD exposes API documentation.

@@ -1,0 +1,21 @@
+schema_version: '1.0'
+id: ihsn
+kind: organization
+name: International Household Survey Network
+description: Informal inter-agency network including UN agencies and the World Bank. UN_PARTNER describes documented
+  collaboration, not a UN legal status.
+website: https://ihsn.org/
+un_relation: UN_PARTNER
+relation_note: Informal inter-agency network including UN agencies and the World Bank. UN_PARTNER describes documented
+  collaboration, not a UN legal status.
+topics: []
+keywords:
+- International Household Survey Network
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://ihsn.org/about
+    claim: Informal network and participating agencies.

@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: wdi
+kind: dataset
+name: World Development Indicators
+description: Cross-country development indicators compiled from national and international producers.
+organization_id: world-bank
+parent_id: null
+catalog_ids:
+- wb-data-catalog
+original_producer: See the original series or study documentation; producers vary.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: World Bank
+topics:
+- A1
+- A2
+- A3
+- A6
+keywords:
+- GDP
+- income
+- poverty
+- education
+- economy
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - api
+  - web_download
+  formats:
+  - JSON
+  - XML
+  - CSV
+  notes: Public Indicators API; preserve each series source and licensing metadata.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation
+links:
+- rel: landing
+  url: https://data.worldbank.org/
+- rel: api_documentation
+  url: https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation
+- rel: api_example
+  url: https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?format=json&per_page=5
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation
+    claim: Indicators API documentation and query routes.

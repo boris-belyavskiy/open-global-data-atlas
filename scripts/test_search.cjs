@@ -1,0 +1,20 @@
+/* Run manually with Node.js. Exercises real search requirements, without a browser. */
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const { matches } = require('../wiki/assets/atlas.js');
+const { records } = JSON.parse(fs.readFileSync(path.join(__dirname, '../wiki/assets/catalog.json'), 'utf8'));
+const search = (f={}) => records.filter(r => matches(r, { q:'',free:true,...f })).map(r=>r.id);
+assert(search({q:'TRUST',topic:'B5',level:'microdata',access:'REGISTER'}).includes('wvs-wave7'));
+assert(!search({q:'trust',level:'aggregate'}).includes('wvs-wave7'));
+assert.deepEqual(search({q:'Findex',geo:'country:IND',access:'REGISTER'}),['findex-2021']);
+assert(!search({geo:'country:IND'}).includes('wdi'),'Global scope must not imply confirmed country coverage');
+assert(!search().includes('ethiopia-ess-2018'));
+assert(search({free:false,access:'METADATA_ONLY',geo:'country:ETH'}).includes('ethiopia-ess-2018'));
+assert(!search({q:'trust unicornxyzz'}).length,'All search terms must match');
+assert(search({topic:'B1',access:'APPLY'}).includes('mtus'));
+assert(search({geo:'region:Africa',level:'microdata',access:'OPEN'}).includes('afro-round9'));
+assert(search({level:'text_event',topic:'A5'}).includes('un-treaties'));
+assert(!search().some(id=>records.find(r=>r.id===id).access.status==='PAID'));
+assert(search({kind:'catalog'}).every(id=>records.find(r=>r.id===id).kind==='catalog'));
+console.log('12 search checks passed: combined filters, country precision, conditional access, reference exclusion, text matching and empty results.');

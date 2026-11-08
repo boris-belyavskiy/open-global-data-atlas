@@ -1,0 +1,19 @@
+schema_version: '1.0'
+id: wvsa
+kind: organization
+name: World Values Survey Association
+description: Independent international survey association; use by UN agencies does not make WVS part of the UN.
+website: https://www.worldvaluessurvey.org/
+un_relation: INDEPENDENT
+relation_note: Independent international survey association; use by UN agencies does not make WVS part of the UN.
+topics: []
+keywords:
+- World Values Survey Association
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Documentation
+    claim: Association archive and data documentation.

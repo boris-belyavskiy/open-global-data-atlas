@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: who-gho
+kind: dataset
+name: WHO Global Health Observatory
+description: International health indicators with an officially documented OData interface.
+organization_id: who
+parent_id: null
+catalog_ids: []
+original_producer: See the original series or study documentation; producers vary.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: World Health Organization
+topics:
+- A2
+- A3
+keywords:
+- health
+- mortality
+- life expectancy
+- air pollution
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - api
+  - web_interface
+  formats:
+  - JSON
+  - XML
+  notes: Public API documented by WHO. Endpoint behavior was not exhaustively tested; preserve indicator metadata.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://www.who.int/data/gho/info/gho-odata-api
+links:
+- rel: landing
+  url: https://www.who.int/data/gho
+- rel: api_documentation
+  url: https://www.who.int/data/gho/info/gho-odata-api
+- rel: api_example
+  url: https://ghoapi.azureedge.net/api/Indicator
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://www.who.int/data/gho/info/gho-odata-api
+    claim: Public OData query examples for indicators and dimensions.

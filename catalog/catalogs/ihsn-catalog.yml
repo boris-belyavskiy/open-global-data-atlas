@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: ihsn-catalog
+kind: catalog
+name: IHSN Survey Catalog
+description: Meta-catalog of household surveys and censuses, directing users to study documentation and custodians.
+organization_id: ihsn
+parent_id: null
+catalog_ids: []
+original_producer: See the original series or study documentation; producers vary.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: International Household Survey Network
+topics:
+- A2
+- A6
+- B1
+- B2
+- B3
+- B4
+- B8
+keywords:
+- meta-catalog
+- survey
+- census
+- NADA
+- DDI
+data_levels:
+- microdata
+observation_units:
+- person
+- household
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: METADATA_ONLY
+  free_data_available: false
+  methods:
+  - web_interface
+  formats:
+  - DDI
+  - HTML
+  notes: Free metadata does not mean every underlying survey is downloadable. Follow each study access policy.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://catalog.ihsn.org/catalog
+links:
+- rel: landing
+  url: https://catalog.ihsn.org/catalog
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://catalog.ihsn.org/catalog
+    claim: Searchable catalogue of studies.
+  - url: https://www.ihsn.org/
+    claim: Central catalog provides survey and census metadata.

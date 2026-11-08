@@ -1,0 +1,19 @@
+schema_version: '1.0'
+id: issp-network
+kind: organization
+name: International Social Survey Programme
+description: International collaboration of national survey teams; GESIS is the official archive.
+website: https://issp.org/
+un_relation: INDEPENDENT
+relation_note: International collaboration of national survey teams; GESIS is the official archive.
+topics: []
+keywords:
+- International Social Survey Programme
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://issp.org/data-download/archive/
+    claim: National programme and GESIS archive responsibilities.

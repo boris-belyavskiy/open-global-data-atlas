@@ -1,0 +1,19 @@
+schema_version: '1.0'
+id: afrobarometer-org
+kind: organization
+name: Afrobarometer
+description: Independent pan-African survey network studying public attitudes and experiences.
+website: https://www.afrobarometer.org/
+un_relation: INDEPENDENT
+relation_note: Independent pan-African survey network studying public attitudes and experiences.
+topics: []
+keywords:
+- Afrobarometer
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://www.afrobarometer.org/data/
+    claim: Survey scope and public data access.

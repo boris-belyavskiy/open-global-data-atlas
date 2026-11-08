@@ -1,0 +1,96 @@
+schema_version: '1.0'
+id: findex-2021
+kind: dataset
+name: Global Findex 2021 respondent microdata
+description: Individual records about accounts, saving, borrowing, payments and financial resilience. These are
+  published Findex records, not access to the full Gallup World Poll.
+organization_id: world-bank
+parent_id: null
+catalog_ids:
+- wb-microdata
+original_producer: World Bank Development Research Group, Finance and Private Sector Development Unit.
+collector: Gallup, Inc., in association with its World Poll.
+publisher: World Bank Microdata Library
+topics:
+- B2
+- B8
+keywords:
+- saving
+- borrowing
+- accounts
+- financial inclusion
+- payments
+- resilience
+data_levels:
+- microdata
+observation_units:
+- person
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  - Africa
+  - Americas
+  - Asia
+  - Europe
+  - Oceania
+  country_codes:
+  - ARG
+  - AUS
+  - BGD
+  - BRA
+  - CAN
+  - CHN
+  - DEU
+  - ETH
+  - FRA
+  - GBR
+  - GHA
+  - IND
+  - JPN
+  - KEN
+  - MEX
+  - NGA
+  - USA
+  - ZAF
+  - UGA
+  - ZMB
+  coverage_completeness: partial
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: 2021 edition; catalogue collection dates 2021-2023 include later country fieldwork.
+release: WLD_2021_FINDEX_v03_M
+access:
+  status: REGISTER
+  free_data_available: true
+  methods:
+  - web_download
+  formats:
+  - Stata
+  notes: Free data after account creation or a user registration form, without substantive project review.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://blogs.worldbank.org/en/opendata/launch-2021-global-findex-microdata
+links:
+- rel: landing
+  url: https://microdata.worldbank.org/catalog/4607
+- rel: questionnaire
+  url: https://microdata.worldbank.org/catalog/4607/related-materials
+- rel: codebook
+  url: https://microdata.worldbank.org/catalog/4607/data-dictionary
+survey:
+  method: Nationally representative adult interviews, telephone or face-to-face by country.
+  weights: Use respondent weights and country sampling documentation.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: COVID-era mode changes and later fieldwork affect comparison with earlier rounds.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://blogs.worldbank.org/en/opendata/launch-2021-global-findex-microdata
+    claim: Download requires free World Bank Microdata Library registration.
+  - url: https://microdata.worldbank.org/catalog/4607/study-description
+    claim: World Bank producer, Gallup collection, study scope and national coverage.

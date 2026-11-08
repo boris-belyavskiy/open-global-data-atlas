@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: wb-data-catalog
+kind: catalog
+name: World Bank Data Catalog
+description: Discovery across development datasets and contributing catalogs.
+organization_id: world-bank
+parent_id: null
+catalog_ids: []
+original_producer: See the original series or study documentation; producers vary.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: World Bank
+topics:
+- A1
+- A2
+- A3
+- A6
+- B2
+keywords:
+- meta-catalog
+- development
+- World Bank
+data_levels:
+- aggregate
+- microdata
+- geospatial
+observation_units:
+- country
+- region
+- person
+- household
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: METADATA_ONLY
+  free_data_available: false
+  methods:
+  - web_interface
+  formats:
+  - HTML
+  notes: Discovery record only. Access and licenses are specified per dataset.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://datacatalog.worldbank.org/
+links:
+- rel: landing
+  url: https://datacatalog.worldbank.org/
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://datacatalog.worldbank.org/
+    claim: Dataset search and contributing catalogs.

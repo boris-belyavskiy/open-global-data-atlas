@@ -1,0 +1,21 @@
+schema_version: '1.0'
+id: ipums
+kind: organization
+name: IPUMS
+description: Research data infrastructure collaborating with UNICEF on IPUMS MICS. Partnership is specific to this
+  programme; IPUMS is not a UN agency.
+website: https://mics.ipums.org/mics/
+un_relation: UN_PARTNER
+relation_note: Research data infrastructure collaborating with UNICEF on IPUMS MICS. Partnership is specific to
+  this programme; IPUMS is not a UN agency.
+topics: []
+keywords:
+- IPUMS
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://mics.ipums.org/mics/user_guide.shtml
+    claim: UNICEF controls MICS authorization and supplies the data extracts.

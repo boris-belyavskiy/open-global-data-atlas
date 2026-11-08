@@ -1,0 +1,41 @@
+access_methods:
+- web_download
+- bulk_download
+- api
+- web_interface
+- research_application
+- email_request
+formats:
+- CSV
+- JSON
+- XML
+- SDMX
+- XLSX
+- Stata
+- SPSS
+- SAS
+- R
+- PDF
+- HTML
+- DDI
+data_levels:
+- aggregate
+- microdata
+- geospatial
+- text_event
+observation_units:
+- country
+- region
+- person
+- household
+- diary_day
+- treaty
+- event
+- organization
+- firm
+- grid_cell
+un_relations:
+- UN_SYSTEM
+- UN_RELATED
+- UN_PARTNER
+- INDEPENDENT

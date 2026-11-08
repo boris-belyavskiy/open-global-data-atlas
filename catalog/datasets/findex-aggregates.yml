@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: findex-aggregates
+kind: dataset
+name: Global Findex country indicators
+description: Country, region and demographic summaries of financial access and behaviour, published separately from
+  respondent files.
+organization_id: world-bank
+parent_id: null
+catalog_ids:
+- wb-data-catalog
+original_producer: World Bank; survey collection by Gallup and national fieldwork arrangements.
+collector: Gallup survey fieldwork.
+publisher: World Bank
+topics:
+- A1
+- A6
+keywords:
+- accounts
+- financial inclusion
+- digital access
+- 8.10.2
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Published rounds include 2011, 2014, 2017, 2021 and 2024; check each indicator.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - web_download
+  formats:
+  - CSV
+  - XLSX
+  - Stata
+  notes: Free data without an account; terms and attribution can still apply.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://www.worldbank.org/en/publication/globalfindex/download-data
+links:
+- rel: landing
+  url: https://www.worldbank.org/en/publication/globalfindex/download-data
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://www.worldbank.org/en/publication/globalfindex/download-data
+    claim: Public Excel, CSV and Stata aggregate downloads; individual data linked separately.

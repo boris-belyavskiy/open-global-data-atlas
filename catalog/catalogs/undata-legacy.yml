@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: undata-legacy
+kind: catalog
+name: UNdata statistical databases
+description: UN data retrieval portal with statistical datamarts and downloadable tables. Republishes statistics
+  from multiple producers.
+organization_id: un
+parent_id: null
+catalog_ids: []
+original_producer: See the original series or study documentation; producers vary.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: United Nations Secretariat
+topics:
+- A1
+- A2
+- A3
+- A4
+- A6
+keywords:
+- UNdata
+- meta-catalog
+- GDP
+- population
+- trade
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - web_download
+  - web_interface
+  formats:
+  - CSV
+  - PDF
+  notes: Free public table downloads. Dataset terms and original producers differ; do not count republished series
+    as new observations.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://data.un.org/Default.aspx
+links:
+- rel: landing
+  url: https://data.un.org/Default.aspx
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://data.un.org/Default.aspx
+    claim: Statistical databases, table links and CSV downloads are listed.

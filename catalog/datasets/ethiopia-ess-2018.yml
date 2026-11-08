@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: ethiopia-ess-2018
+kind: dataset
+name: Ethiopia Socioeconomic Survey 2018-2019
+description: Country study with detailed household and agriculture documentation. Retained as an explicit access
+  gap.
+organization_id: world-bank
+parent_id: lsms
+catalog_ids:
+- wb-microdata
+- ihsn-catalog
+original_producer: Central Statistics Agency of Ethiopia.
+collector: Central Statistics Agency of Ethiopia.
+publisher: World Bank
+topics:
+- B2
+- B3
+- B4
+keywords:
+- Ethiopia
+- households
+- agriculture
+- consumption
+data_levels:
+- microdata
+observation_units:
+- household
+- person
+geography:
+  scope: single_country
+  regions:
+  - Africa
+  country_codes:
+  - ETH
+  coverage_completeness: partial
+  notes: Ethiopia is the study country. Coverage within Ethiopia must be read in the sampling documentation.
+time_coverage: 2018-2019
+release: ETH_2018_ESS_v04_M (identifier shown on access page).
+access:
+  status: METADATA_ONLY
+  free_data_available: false
+  methods:
+  - web_interface
+  formats:
+  - DDI
+  - JSON
+  notes: Not counted among available free data. Metadata and documentation are visible, but current public download
+    access was not established.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://microdata.worldbank.org/index.php/catalog/3823
+links:
+- rel: landing
+  url: https://microdata.worldbank.org/index.php/catalog/3823
+survey:
+  method: Multi-topic household and agriculture survey.
+  weights: Consult study documentation.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: Preserve panel design and seasonality information.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://microdata.worldbank.org/index.php/catalog/3823
+    claim: Study identity, fieldwork period and Central Statistics Agency producer.
+  - url: https://microdata.worldbank.org/index.php/catalog/3823/get-microdata
+    claim: Current public access page says Data Access Not Available.

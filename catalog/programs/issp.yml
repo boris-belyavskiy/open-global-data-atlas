@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: issp
+kind: program
+name: International Social Survey Programme
+description: Annual cross-national modules on social inequality, religion, family, government and other topics.
+organization_id: issp-network
+parent_id: null
+catalog_ids: []
+original_producer: ISSP national member teams; GESIS integrates and harmonizes releases.
+collector: National ISSP member institutes.
+publisher: GESIS Data Archive for the Social Sciences
+topics:
+- B2
+- B3
+- B4
+- B5
+- B6
+- B7
+keywords:
+- inequality
+- fairness
+- religion
+- family
+- government
+data_levels:
+- microdata
+observation_units:
+- person
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: REGISTER
+  free_data_available: true
+  methods:
+  - web_download
+  formats:
+  - Stata
+  - SPSS
+  notes: Free data after account creation or a user registration form, without substantive project review.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://issp.org/data-download/
+links:
+- rel: landing
+  url: https://issp.org/data-download/
+survey:
+  method: National surveys using a common annual thematic module.
+  weights: Use study-specific weights and methods.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: Modules repeat at intervals; membership and questions vary.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://issp.org/data-download/
+    claim: Free download after GESIS registration.
+  - url: https://issp.org/data-download/archive/
+    claim: GESIS is the official archive and integrates national datasets.

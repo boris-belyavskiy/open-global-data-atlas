@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: unodc-homicide
+kind: dataset
+name: UNODC intentional homicide statistics
+description: Country-level homicide statistics and disaggregations published by UNODC.
+organization_id: unodc
+parent_id: unodc-portal
+catalog_ids:
+- unodc-portal
+original_producer: See the original series or study documentation; producers vary.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: United Nations Office on Drugs and Crime
+topics:
+- A4
+- A6
+keywords:
+- homicide
+- violence
+- 16.1.1
+- security
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - web_download
+  formats:
+  - XLSX
+  notes: Public downloadable statistics; administrative reporting, legal definitions and completeness vary.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://data.unodc.org/datareport/hom-victim
+links:
+- rel: landing
+  url: https://data.unodc.org/datareport/hom-victim
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://data.unodc.org/datareport/hom-victim
+    claim: Dedicated homicide page exposes a Download data link and metadata.

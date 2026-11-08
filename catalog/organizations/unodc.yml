@@ -1,0 +1,19 @@
+schema_version: '1.0'
+id: unodc
+kind: organization
+name: United Nations Office on Drugs and Crime
+description: UN office publishing crime and justice statistics.
+website: https://www.unodc.org/
+un_relation: UN_SYSTEM
+relation_note: UN office publishing crime and justice statistics.
+topics: []
+keywords:
+- United Nations Office on Drugs and Crime
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://unsceb.org/faq/
+    claim: UNODC is a UN system CEB member.

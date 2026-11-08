@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: ipums-mics
+kind: program
+name: IPUMS MICS harmonized extracts
+description: Variable-level discovery and harmonized extracts of participating MICS samples. Links back to UNICEF-controlled
+  data access.
+organization_id: ipums
+parent_id: mics
+catalog_ids: []
+original_producer: National MICS producers; IPUMS harmonizes.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: IPUMS documentation; UNICEF supplies data downloads.
+topics:
+- B2
+- B3
+- B4
+keywords:
+- IPUMS
+- harmonization
+- children
+- women
+data_levels:
+- microdata
+observation_units:
+- person
+- household
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: APPLY
+  free_data_available: true
+  methods:
+  - research_application
+  - web_download
+  formats:
+  - Stata
+  notes: No fee; approved UNICEF MICS access is required. IPUMS MICS is a representation of MICS, not an independent
+    survey.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://mics.ipums.org/mics/user_guide.shtml
+links:
+- rel: landing
+  url: https://mics.ipums.org/mics/
+survey:
+  method: Harmonized MICS samples with selectable units of analysis.
+  weights: Retain sample-specific weights, strata and cluster variables.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: Harmonization does not erase differences in universe, wording or fieldwork.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://mics.ipums.org/mics/user_guide.shtml
+    claim: Free extracts by unit of analysis; UNICEF account and download.
+  - url: https://mics.ipums.org/mics/register.shtml
+    claim: UNICEF authorization carries over to IPUMS MICS.

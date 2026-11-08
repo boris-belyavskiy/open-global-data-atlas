@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: mtus
+kind: program
+name: Multinational Time Use Study
+description: Harmonized national time diary surveys for studying daily activities and unpaid care.
+organization_id: ctur
+parent_id: null
+catalog_ids: []
+original_producer: Original national survey producers; CTUR harmonizes MTUS files.
+collector: National time-use survey organizations.
+publisher: Centre for Time Use Research
+topics:
+- B1
+- B2
+- B4
+keywords:
+- time use
+- care
+- diary
+- sleep
+- leisure
+- unpaid work
+data_levels:
+- microdata
+observation_units:
+- person
+- diary_day
+- household
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: APPLY
+  free_data_available: true
+  methods:
+  - research_application
+  - web_download
+  formats:
+  - Stata
+  - SPSS
+  notes: Free researcher access with registration and authorization. Only the no-fee accessible MTUS route is in
+    scope; restricted national source files are not promised. Redistribution prohibited by provider terms.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://www.timeuse.org/mtus/access
+links:
+- rel: landing
+  url: https://www.timeuse.org/mtus
+survey:
+  method: Time diaries harmonized across national studies.
+  weights: Diary/day and respondent weights differ; consult the user guide.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: Diary design, activity coding, simultaneous activities and survey years vary.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://www.timeuse.org/mtus/access
+    claim: No-fee user registration; restricted national files need additional permission.
+  - url: https://www.timeuse.org/MTUS-User-Guide
+    claim: Access requires registration and authorization; describes diary and harmonized files.

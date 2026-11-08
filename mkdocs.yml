@@ -1,0 +1,57 @@
+site_name: Open Global Data Atlas
+site_description: Find free global statistics and survey microdata by source, topic and access route.
+site_url: https://boris-belyavskiy.github.io/open-global-data-atlas/
+repo_url: https://github.com/boris-belyavskiy/open-global-data-atlas
+repo_name: open-global-data-atlas
+edit_uri: ''
+docs_dir: wiki
+site_dir: docs
+exclude_docs: |
+  !.nojekyll
+theme:
+  name: material
+  language: en
+  font: false
+  palette:
+    primary: teal
+    accent: amber
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+plugins:
+  - search:
+      lang: en
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - pymdownx.superfences
+extra_css:
+  - assets/atlas.css
+extra_javascript:
+  - assets/atlas.js
+nav:
+  - Find data: index.md
+  - Browse by source:
+      - Organizations: sources.md
+      - Catalogs and meta-catalogs: catalogs.md
+      - Survey programmes: programs.md
+      - Datasets: datasets.md
+  - Browse by topic: topics/index.md
+  - SDG crosswalk: sdg.md
+  - How to use:
+      - Methodology: methodology.md
+      - Access guide: access-guide.md
+      - Research guides: research-guides.md
+      - Coverage and limitations: coverage.md
+  - For contributors:
+      - Schema reference: schema-reference.md
+      - Downloads: downloads.md
+      - Manual publishing: publishing.md
+      - Roadmap: roadmap.md
+extra:
+  generator: false

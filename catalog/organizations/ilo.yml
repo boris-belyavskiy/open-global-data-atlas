@@ -1,0 +1,19 @@
+schema_version: '1.0'
+id: ilo
+kind: organization
+name: International Labour Organization
+description: UN specialized agency for labour.
+website: https://www.ilo.org/
+un_relation: UN_SYSTEM
+relation_note: UN specialized agency for labour.
+topics: []
+keywords:
+- International Labour Organization
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://unsceb.org/faq/
+    claim: ILO is a UN system CEB member.

@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: un-data-commons
+kind: catalog
+name: UN System Data Commons
+description: Cross-agency discovery portal for UN-system statistics. Start here to locate sources, then check the
+  original publisher.
+organization_id: un
+parent_id: null
+catalog_ids: []
+original_producer: See the original series or study documentation; producers vary.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: United Nations Secretariat
+topics:
+- A1
+- A2
+- A3
+- A4
+- A6
+keywords:
+- UN
+- meta-catalog
+- discovery
+data_levels:
+- aggregate
+observation_units:
+- country
+- region
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: METADATA_ONLY
+  free_data_available: false
+  methods:
+  - web_interface
+  formats:
+  - HTML
+  notes: Portal identity is verified. This seed does not assert a uniform access route or test its JavaScript application.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://data.un.org/
+links:
+- rel: landing
+  url: https://data.un.org/
+survey: null
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://data.un.org/
+    claim: Current portal title identifies UN System Data Commons; application requires JavaScript.

@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: lsms
+kind: program
+name: Living Standards Measurement Study
+description: Programme supporting household surveys and methodological work; discover country studies through the
+  Microdata Library.
+organization_id: world-bank
+parent_id: null
+catalog_ids:
+- wb-microdata
+original_producer: National statistical agencies supported by the World Bank LSMS programme.
+collector: National statistical offices, administrative systems or survey teams; varies by source.
+publisher: World Bank
+topics:
+- B2
+- B3
+- B4
+- B8
+keywords:
+- consumption
+- income
+- agriculture
+- LSMS
+- household budget
+data_levels:
+- microdata
+observation_units:
+- household
+- person
+geography:
+  scope: multi_country
+  regions:
+  - Global / multi-region
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: METADATA_ONLY
+  free_data_available: false
+  methods:
+  - web_interface
+  formats:
+  - DDI
+  notes: 'Directory entry only: study-level routes differ. Check each release; the seed does not generalize a free
+    download route to the entire programme.'
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://microdata.worldbank.org/index.php/catalog/3823
+links:
+- rel: landing
+  url: https://microdata.worldbank.org/index.php/catalog/lsms
+survey:
+  method: Household multi-topic surveys; some studies are longitudinal.
+  weights: Use each country study weights and panel/attrition guidance.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: Designs, expenditure recall, agricultural modules and panel structures differ.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://microdata.worldbank.org/index.php/catalog/3823
+    claim: Example LSMS study and national producer.
+  - url: https://microdata.worldbank.org/index.php/catalog/3823/get-microdata
+    claim: This example currently says Data Access Not Available.

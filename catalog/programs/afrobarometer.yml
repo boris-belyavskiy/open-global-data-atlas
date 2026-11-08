@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: afrobarometer
+kind: program
+name: Afrobarometer surveys
+description: Public opinion and reported experience surveys covering governance, services, trust and safety in African
+  countries.
+organization_id: afrobarometer-org
+parent_id: null
+catalog_ids: []
+original_producer: Afrobarometer network and national partners.
+collector: Afrobarometer national partners.
+publisher: Afrobarometer
+topics:
+- B2
+- B3
+- B5
+- B6
+- B7
+- B8
+keywords:
+- Africa
+- democracy
+- trust
+- safety
+- services
+data_levels:
+- microdata
+observation_units:
+- person
+geography:
+  scope: multi_country
+  regions:
+  - Africa
+  country_codes: []
+  coverage_completeness: not_enumerated
+  notes: Country tags are verified examples only. Consult the original source for the full country-by-year and variable
+    inventory.
+time_coverage: Varies by series, country and release; consult the original source.
+release: null
+access:
+  status: OPEN
+  free_data_available: true
+  methods:
+  - web_download
+  formats:
+  - SPSS
+  notes: Free data without an account; terms and attribution can still apply.
+  license_name: Provider-specific terms; see the access evidence and original record.
+  license_url: https://www.afrobarometer.org/data/
+links:
+- rel: landing
+  url: https://www.afrobarometer.org/data/
+survey:
+  method: National adult sample surveys; inspect country sampling and questionnaires.
+  weights: Weights are documented with each merged round.
+  representativeness: Read the country/wave sampling documentation; a programme name is not a universal representativeness
+    guarantee.
+  comparability: Pooled continent estimates require population/coverage decisions; survey rounds span years.
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Public landing page and/or provider documentation reviewed. Authenticated downloads and applications were
+    not performed.
+  evidence:
+  - url: https://www.afrobarometer.org/data/
+    claim: Public country and merged survey data are free to use.
+  - url: https://www.afrobarometer.org/data/data-usage-and-access-policy/
+    claim: Provider access and usage policy.

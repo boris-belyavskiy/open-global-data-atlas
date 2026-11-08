@@ -1,0 +1,19 @@
+schema_version: '1.0'
+id: ess-eric
+kind: organization
+name: European Social Survey ERIC
+description: European research infrastructure for comparative social surveys; not a UN organization.
+website: https://www.europeansocialsurvey.org/
+un_relation: INDEPENDENT
+relation_note: European research infrastructure for comparative social surveys; not a UN organization.
+topics: []
+keywords:
+- European Social Survey ERIC
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://www.europeansocialsurvey.org/sites/default/files/2024-04/prospectus_updated.pdf
+    claim: ESS ERIC identity, survey and access information.

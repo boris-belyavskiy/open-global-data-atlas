@@ -1,0 +1,19 @@
+schema_version: '1.0'
+id: unicef
+kind: organization
+name: United Nations Children's Fund
+description: UN fund supporting national Multiple Indicator Cluster Surveys.
+website: https://www.unicef.org/
+un_relation: UN_SYSTEM
+relation_note: UN fund supporting national Multiple Indicator Cluster Surveys.
+topics: []
+keywords:
+- United Nations Children's Fund
+verification:
+  status: verified
+  checked_on: '2026-11-07'
+  method: public_documentation
+  scope: Identity and institutional relationship; no download test.
+  evidence:
+  - url: https://unsceb.org/faq/
+    claim: UNICEF is a UN system CEB member.

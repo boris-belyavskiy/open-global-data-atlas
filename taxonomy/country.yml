@@ -1,0 +1,20 @@
+- id: A1
+  name: Economy and resources
+  description: Macroeconomics, income, public finance, taxation, labour, trade, sectors, extraction, energy and
+    infrastructure.
+- id: A2
+  name: Demography and population health
+  description: Population, fertility, mortality, migration, disease and health systems.
+- id: A3
+  name: Environment and climate
+  description: Emissions, net zero, air and water quality, light and noise pollution, biodiversity, land and climate
+    risks.
+- id: A4
+  name: Defence and security
+  description: Military expenditure, arms, conflict, crime, violence and public safety.
+- id: A5
+  name: International relations and affiliations
+  description: Memberships, alliances, treaties, diplomatic relations and UN voting.
+- id: A6
+  name: Social development and institutions
+  description: Education, poverty, inequality, social protection, housing, governance, justice and digital inclusion.

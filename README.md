@@ -73,4 +73,3 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md). Preserve stable IDs, cite official evid
 Recommended order: expand and review the registry → approve change-validation checks → pilot a single metadata importer → add release/variable indexing → consider opt-in scheduled refreshes. The [roadmap](wiki/roadmap.md) describes these future stages; none is enabled.
 
 Original atlas code and metadata prose are under [MIT](LICENSE). External source data, documents, names and third-party MkDocs/Material assets retain their own rights and licenses. This atlas is an independent directory and is not an official UN publication.
-
